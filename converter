@@ -4,6 +4,7 @@ import argparse
 import logging
 import json
 import os
+from pydub import AudioSegment
 
 
 LOG = logging.getLogger(__name__)
@@ -66,6 +67,18 @@ def read_json_file(filename):
     return (name, data)
 
 
+def make_json_paths_absolute(data, json_file):
+    """
+    Converts the paths in a sound config file to absolute paths.
+    @param data JSON data
+    @param json_file Path to JSON file
+    """
+
+    json_directory = os.path.abspath(os.path.dirname(json_file))
+    data['vsq_file'] = os.path.join(json_directory, data['vsq_file'])
+    data['audio_file'] = os.path.join(json_directory, data['audio_file'])
+
+
 def get_soundfile_config(sound_name, sound_files):
     """
     Searches for a retrieves the sound config for a given sound.
@@ -82,24 +95,57 @@ def get_soundfile_config(sound_name, sound_files):
                 return (s_data, f_data['timing'], f_data['audio_file'])
 
 
-def slice_audio():
-    pass
-
-
 def process_target(target_config, sound_files):
+    """
+    Processes audio files for a given target.
+    @param target_config Configuration for the target
+    @param sound_files Configurations for all sound files
+    """
+
     LOG.info('Processing target %s', target_config['profile'])
-    pass
+
+    out_directory = os.path.abspath(target_config['directory'])
+    if not os.path.exists(out_directory):
+        os.makedirs(out_directory)
+    LOG.info('Output directory: %s', out_directory)
+
+    for filename, sound_name in target_config['sounds'].items():
+        LOG.debug('Processing sound %s', sound_name)
+        sound_config = get_soundfile_config(sound_name, sound_files)
+        out_filename = os.path.join(out_directory, filename)
+        slice_audio(sound_config, target_config['audio_format'], out_filename)
+
+
+def slice_audio(sound_config, audio_config, filename):
+    """
+    Calculates he timing for a sound file, slices it and saves the result.
+    @param sound_config Configuration data for sound clip
+    @param audio_config Configuration for the audio output
+    @param filename Filename of the output audio file
+    """
+
+    sound = AudioSegment.from_wav(sound_config[2])
+
+    #TODO: calculate timing
+    print sound_config
+    sound_segment = sound[1000:8000]
+
+    sound_segment.set_channels(audio_config['channels'])
+    sound_segment.set_frame_rate(audio_config['sample_freq'])
+    sound_segment.export(filename, format="wav")
 
 
 if __name__ == '__main__':
     props = parse_cli();
 
+    # Read sound files
     sound_files = {}
-
     for f in props.sound_file:
         name, data = read_json_file(f)
+        make_json_paths_absolute(data, f)
         sound_files[name] = data
 
+    # Read and process targets
     for f in props.output:
         data = read_json_file(f)[1]
         process_target(data, sound_files)

@@ -2,7 +2,7 @@
   "profile": "OpenTX Generic Sound Pack",
   "directory": "./out/opentx_generic",
   "audio_format": {
-    "channels": "mono",
+    "channels": 1,
     "sample_freq": 32000
   },
   "sounds": {
