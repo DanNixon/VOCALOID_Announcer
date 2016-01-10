@@ -1,0 +1,106 @@
+#!/usr/bin/env python
+
+import argparse
+import logging
+import json
+import os
+
+
+LOG = logging.getLogger(__name__)
+
+
+def parse_cli():
+    """
+    Parses command line options.
+    @return Parsed options
+    """
+
+    parser = argparse.ArgumentParser(
+            description='File converter for VOCALOID OpenTX voice banks')
+
+    parser.add_argument(
+        '--log-level',
+        action='store',
+        default='INFO',
+        help='Logging level [DEBUG,INFO,WARNING,ERROR,CRITICAL]'
+    )
+
+    parser.add_argument(
+        '-s', '--sound-file',
+        action='append',
+        type=str,
+        help='Input sound definition file'
+    )
+
+    parser.add_argument(
+        '-o', '--output',
+        action='append',
+        type=str,
+        help='Output configuration file'
+    )
+
+    props = parser.parse_args()
+
+    log_level = getattr(logging, props.log_level.upper(), None)
+    if not isinstance(log_level, int):
+        log_level = logging.INFO
+
+    logging.basicConfig(level=log_level,
+                        format='%(levelname)s: %(message)s')
+
+    return props
+
+
+def read_json_file(filename):
+    """
+    Reads a JSON input/output configuration file.
+    @param filename Path to file to read
+    @return Tuple (file base name, data)
+    """
+
+    LOG.info('Reading JSON file %s', filename)
+    with open(filename, 'r') as ifp:
+        data = json.load(ifp)
+
+    name = os.path.splitext(os.path.basename(filename))[0]
+    return (name, data)
+
+
+def get_soundfile_config(sound_name, sound_files):
+    """
+    Searches for a retrieves the sound config for a given sound.
+    @param sound_name Name of the sound to find
+    @param sound_files All sound files to search through
+    @return Tuple (sound position, timing info, audio filename)
+    """
+
+    LOG.debug('Looking for sound %s', sound_name)
+    for f_name, f_data in sound_files.items():
+        LOG.debug('Searching in sound config %s', f_name)
+        for s_name, s_data in f_data['sounds'].items():
+            if s_name == sound_name:
+                return (s_data, f_data['timing'], f_data['audio_file'])
+
+
+def slice_audio():
+    pass
+
+
+def process_target(target_config, sound_files):
+    LOG.info('Processing target %s', target_config['profile'])
+    pass
+
+
+if __name__ == '__main__':
+    props = parse_cli();
+
+    sound_files = {}
+
+    for f in props.sound_file:
+        name, data = read_json_file(f)
+        sound_files[name] = data
+
+    for f in props.output:
+        data = read_json_file(f)[1]
+        process_target(data, sound_files)
+

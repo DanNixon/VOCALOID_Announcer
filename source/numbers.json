@@ -1,0 +1,15 @@
+{
+  "audio_file": "numbers.wav",
+  "vsq_file": "numbers.vsqx",
+  "timing": {
+    "beats_per_minute": 120,
+    "beats_per_measure": 4,
+    "beat_unit": 4
+  },
+  "sounds": {
+    "1": {
+      "start_measure": 1,
+      "beat_duration": 10
+    }
+  }
+}
