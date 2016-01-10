@@ -11,11 +11,11 @@
       "start_measure": 1,
       "beat_duration": 3.75
     },
-    "throttle_warn": {
+    "throttle_warning": {
       "start_measure": 2,
       "beat_duration": 4
     },
-    "switch_warn": {
+    "switch_warning": {
       "start_measure": 3,
       "beat_duration": 3.5
     },
@@ -23,7 +23,7 @@
       "start_measure": 4,
       "beat_duration": 2.5
     },
-    "trim_end": {
+    "trim_maximum": {
       "start_measure": 5,
       "beat_duration": 2.5
     }
