@@ -1,0 +1,17 @@
+{
+  "profile": "Test Sound Pack",
+  "directory": "./out/test",
+  "audio_format": {
+    "channels": 1,
+    "sample_freq": 32000,
+    "gain": 20
+  },
+  "sounds": {
+    "tada.wav":         "welcome",
+    "tada_opentx.wav":  "welcome",
+    "thrwarn.wav":      "throttle_warn",
+    "swwarn.wav":       "switch_warn",
+    "trimcen.wav":      "trim_centre",
+    "trimend.wav":      "trim_end"
+  }
+}

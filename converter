@@ -112,6 +112,9 @@ def process_target(target_config, sound_files):
     for filename, sound_name in target_config['sounds'].items():
         LOG.debug('Processing sound %s', sound_name)
         sound_config = get_soundfile_config(sound_name, sound_files)
+        if sound_config is None:
+            LOG.warn('Cannot find sound %s', sound_name)
+            continue
         out_filename = os.path.join(out_directory, filename)
         slice_audio(sound_config, target_config['audio_format'], out_filename)
 
@@ -124,15 +127,22 @@ def slice_audio(sound_config, audio_config, filename):
     @param filename Filename of the output audio file
     """
 
+    LOG.debug('Processing audio for %s', filename)
     sound = AudioSegment.from_wav(sound_config[2])
 
-    #TODO: calculate timing
-    print sound_config
-    sound_segment = sound[1000:8000]
+    ms_per_beat = 60000 / sound_config[1]['beats_per_minute']
+    ms_per_measure = ms_per_beat * sound_config[1]['beats_per_measure']
+    start = ms_per_measure * sound_config[0]['start_measure']
+    end = start + (sound_config[0]['beat_duration'] * ms_per_beat)
 
+    LOG.debug('Calculates start and end times %d-%d', start, end)
+
+    sound_segment = sound[start:end]
+
+    sound_segment += audio_config['gain']
     sound_segment.set_channels(audio_config['channels'])
     sound_segment.set_frame_rate(audio_config['sample_freq'])
-    sound_segment.export(filename, format="wav")
+    sound_segment.export(filename, format='wav')
 
 
 if __name__ == '__main__':

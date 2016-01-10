@@ -1,0 +1,31 @@
+{
+  "audio_file": "test.wav",
+  "vsq_file": "test.vsqx",
+  "timing": {
+    "beats_per_minute": 120,
+    "beats_per_measure": 4,
+    "beat_unit": 4
+  },
+  "sounds": {
+    "welcome": {
+      "start_measure": 1,
+      "beat_duration": 3.75
+    },
+    "throttle_warn": {
+      "start_measure": 2,
+      "beat_duration": 4
+    },
+    "switch_warn": {
+      "start_measure": 3,
+      "beat_duration": 3.5
+    },
+    "trim_centre": {
+      "start_measure": 4,
+      "beat_duration": 2.5
+    },
+    "trim_end": {
+      "start_measure": 5,
+      "beat_duration": 2.5
+    }
+  }
+}
