@@ -4,6 +4,7 @@ import argparse
 import logging
 import json
 import os
+import xmltodict
 from pydub import AudioSegment
 
 
@@ -79,20 +80,34 @@ def make_json_paths_absolute(data, json_file):
     data['audio_file'] = os.path.join(json_directory, data['audio_file'])
 
 
+def read_vsq_file(data):
+    """
+    Reads the VSQ(X) file and stores it along with the JSON.
+    @param data JSON data
+    """
+
+    LOG.info('Reading VSQ file %s', data['vsq_file'])
+    with open(data['vsq_file'], 'r') as ifp:
+        vsq_data = xmltodict.parse(ifp)
+
+    data['vsq_master_track'] = vsq_data['vsq4']['masterTrack']
+    data['vsq_voice_track'] = vsq_data['vsq4']['vsTrack']
+
+
 def get_soundfile_config(sound_name, sound_files):
     """
     Searches for a retrieves the sound config for a given sound.
     @param sound_name Name of the sound to find
     @param sound_files All sound files to search through
-    @return Tuple (sound position, timing info, audio filename)
+    @return Tuple (VSQ part, VSQ master track, audio filename)
     """
 
-    LOG.debug('Looking for sound %s', sound_name)
     for f_name, f_data in sound_files.items():
-        LOG.debug('Searching in sound config %s', f_name)
-        for s_name, s_data in f_data['sounds'].items():
-            if s_name == sound_name:
-                return (s_data, f_data['timing'], f_data['audio_file'])
+        for part_data in f_data['vsq_voice_track']['vsPart']:
+            name = part_data['name']
+
+            if name == sound_name:
+                return (part_data, f_data['vsq_master_track'], f_data['audio_file'])
 
 
 def process_target(target_config, sound_files):
@@ -119,6 +134,28 @@ def process_target(target_config, sound_files):
         slice_audio(sound_config, target_config['audio_format'], out_filename)
 
 
+def calculate_time(master_track, vocal_part):
+    """
+    @param master_track
+    @param vocal_part
+    """
+
+    bpm = int(master_track['tempo'][-1]['v']) / 100.0
+    bpq = int(master_track['resolution'])
+    ms_per_tick = 60000.0 / (bpm * bpq)
+    LOG.debug('Milliseconds per MIDI tick %f', ms_per_tick)
+
+    start_ticks = int(vocal_part['t'])
+    end_ticks = start_ticks + int(vocal_part['playTime'])
+
+    start_time_ms = ms_per_tick * start_ticks
+    end_time_ms = ms_per_tick * end_ticks
+
+    LOG.info('Computed time: %f - %f', start_time_ms, end_time_ms)
+
+    return (start_time_ms, end_time_ms)
+
+
 def slice_audio(sound_config, audio_config, filename):
     """
     Calculates he timing for a sound file, slices it and saves the result.
@@ -127,16 +164,11 @@ def slice_audio(sound_config, audio_config, filename):
     @param filename Filename of the output audio file
     """
 
-    LOG.debug('Processing audio for %s', filename)
+    LOG.info('Processing audio for %s', filename)
+
+    start, end = calculate_time(sound_config[1], sound_config[0])
+
     sound = AudioSegment.from_wav(sound_config[2])
-
-    ms_per_beat = 60000 / sound_config[1]['beats_per_minute']
-    ms_per_measure = ms_per_beat * sound_config[1]['beats_per_measure']
-    start = ms_per_measure * sound_config[0]['start_measure']
-    end = start + (sound_config[0]['beat_duration'] * ms_per_beat)
-
-    LOG.debug('Calculates start and end times %d-%d', start, end)
-
     sound_segment = sound[start:end]
 
     sound_segment += audio_config['gain']
@@ -153,6 +185,7 @@ if __name__ == '__main__':
     for f in props.sound_file:
         name, data = read_json_file(f)
         make_json_paths_absolute(data, f)
+        read_vsq_file(data)
         sound_files[name] = data
 
     # Read and process targets
