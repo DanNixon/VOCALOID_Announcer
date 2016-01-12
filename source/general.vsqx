@@ -1,1124 +1,1479 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<vsq3 xmlns="http://www.yamaha.co.jp/vocaloid/schema/vsq3/"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.yamaha.co.jp/vocaloid/schema/vsq3/ vsq3.xsd">
+<vsq4 xmlns="http://www.yamaha.co.jp/vocaloid/schema/vsq4/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.yamaha.co.jp/vocaloid/schema/vsq4/ vsq4.xsd">
 	<vender><![CDATA[Yamaha corporation]]></vender>
 	<version><![CDATA[3.0.0.11]]></version>
 	<vVoiceTable>
 		<vVoice>
-			<vBS>1</vBS>
-			<vPC>0</vPC>
-			<compID><![CDATA[BMET9E56G4RPWMB3]]></compID>
-			<vVoiceName><![CDATA[MIKU_V3_English_DEMO]]></vVoiceName>
-			<vVoiceParam>
+			<bs>1</bs>
+			<pc>1</pc>
+			<id><![CDATA[BHNXE5Y8NG2S3HD8]]></id>
+			<name><![CDATA[LUKA_V4X_ENG_Straight]]></name>
+			<vPrm>
 				<bre>0</bre>
 				<bri>0</bri>
 				<cle>0</cle>
 				<gen>0</gen>
 				<ope>0</ope>
-			</vVoiceParam>
+			</vPrm>
+			<id2><![CDATA[BKMMC6EZLHZHZKC2]]></id2>
+			<vPrm2>
+				<bre>0</bre>
+				<bri>0</bri>
+				<cle>0</cle>
+				<gen>0</gen>
+				<ope>0</ope>
+				<vol>0</vol>
+			</vPrm2>
 		</vVoice>
 	</vVoiceTable>
 	<mixer>
 		<masterUnit>
-			<outDev>0</outDev>
-			<retLevel>0</retLevel>
+			<oDev>0</oDev>
+			<rLvl>0</rLvl>
 			<vol>0</vol>
 		</masterUnit>
 		<vsUnit>
-			<vsTrackNo>0</vsTrackNo>
-			<inGain>0</inGain>
-			<sendLevel>-898</sendLevel>
-			<sendEnable>0</sendEnable>
-			<mute>0</mute>
-			<solo>0</solo>
+			<tNo>0</tNo>
+			<iGin>0</iGin>
+			<sLvl>-898</sLvl>
+			<sEnable>0</sEnable>
+			<m>0</m>
+			<s>0</s>
 			<pan>64</pan>
 			<vol>0</vol>
 		</vsUnit>
-		<seUnit>
-			<inGain>0</inGain>
-			<sendLevel>-898</sendLevel>
-			<sendEnable>0</sendEnable>
-			<mute>0</mute>
-			<solo>0</solo>
+		<monoUnit>
+			<iGin>0</iGin>
+			<sLvl>-898</sLvl>
+			<sEnable>0</sEnable>
+			<m>0</m>
+			<s>0</s>
 			<pan>64</pan>
 			<vol>0</vol>
-		</seUnit>
-		<karaokeUnit>
-			<inGain>0</inGain>
-			<mute>0</mute>
-			<solo>0</solo>
+		</monoUnit>
+		<stUnit>
+			<iGin>0</iGin>
+			<m>0</m>
+			<s>0</s>
 			<vol>-129</vol>
-		</karaokeUnit>
+		</stUnit>
 	</mixer>
 	<masterTrack>
-		<seqName><![CDATA[Untitled0]]></seqName>
-		<comment><![CDATA[New VSQ File]]></comment>
+		<seqName><![CDATA[none]]></seqName>
+		<comment><![CDATA[none]]></comment>
 		<resolution>480</resolution>
 		<preMeasure>4</preMeasure>
 		<timeSig>
-			<posMes>0</posMes>
-			<nume>4</nume>
-			<denomi>4</denomi>
+			<m>0</m>
+			<nu>4</nu>
+			<de>4</de>
+		</timeSig>
+		<timeSig>
+			<m>4</m>
+			<nu>4</nu>
+			<de>4</de>
 		</timeSig>
 		<tempo>
-			<posTick>0</posTick>
-			<bpm>12000</bpm>
+			<t>0</t>
+			<v>12000</v>
+		</tempo>
+		<tempo>
+			<t>7680</t>
+			<v>12000</v>
 		</tempo>
 	</masterTrack>
 	<vsTrack>
-		<vsTrackNo>0</vsTrackNo>
-		<trackName><![CDATA[Track]]></trackName>
+		<tNo>0</tNo>
+		<name><![CDATA[LUKA_V4X_ENG_Straight]]></name>
 		<comment><![CDATA[Track]]></comment>
-		<musicalPart>
-			<posTick>7680</posTick>
-			<playTime>32640</playTime>
-			<partName><![CDATA[NewPart]]></partName>
-			<comment><![CDATA[New Musical Part]]></comment>
-			<stylePlugin>
-				<stylePluginID><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></stylePluginID>
-				<stylePluginName><![CDATA[VOCALOID2 Compatible Style]]></stylePluginName>
+		<vsPart>
+			<t>7680</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[a1_low]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
 				<version><![CDATA[3.0.0.1]]></version>
-			</stylePlugin>
-			<partStyle>
-				<attr id="accent">50</attr>
-				<attr id="bendDep">8</attr>
-				<attr id="bendLen">0</attr>
-				<attr id="decay">50</attr>
-				<attr id="fallPort">0</attr>
-				<attr id="opening">127</attr>
-				<attr id="risePort">0</attr>
-			</partStyle>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
 			<singer>
-				<posTick>0</posTick>
-				<vBS>1</vBS>
-				<vPC>0</vPC>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
 			</singer>
 			<note>
-				<posTick>0</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ay]]></lyric>
-				<phnms><![CDATA[eI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ay]]></y>
+				<p><![CDATA[eI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>240</posTick>
-				<durTick>240</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[one]]></lyric>
-				<phnms><![CDATA[w V n]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>240</t>
+				<dur>240</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[one]]></y>
+				<p><![CDATA[w V n]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>600</posTick>
-				<durTick>360</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[low]]></lyric>
-				<phnms><![CDATA[l0 @U]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">9</attr>
-					<attr id="vibType">1</attr>
-					<seqAttr id="vibDep">
-						<elem>
-							<posNrm>59660</posNrm>
-							<elv>64</elv>
-						</elem>
-					</seqAttr>
-					<seqAttr id="vibRate">
-						<elem>
-							<posNrm>59660</posNrm>
-							<elv>50</elv>
-						</elem>
-					</seqAttr>
-				</noteStyle>
+				<t>600</t>
+				<dur>360</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[low]]></y>
+				<p><![CDATA[l0 @U]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">9</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc>
+							<p>59638</p>
+							<v>64</v>
+						</cc>
+					</seq>
+					<seq id="vibRate">
+						<cc>
+							<p>59638</p>
+							<v>50</v>
+						</cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>9600</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[a1_critical]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ay]]></y>
+				<p><![CDATA[eI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>1920</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ay]]></lyric>
-				<phnms><![CDATA[eI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>240</t>
+				<dur>240</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[one]]></y>
+				<p><![CDATA[w V n]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>2160</posTick>
-				<durTick>240</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[one]]></lyric>
-				<phnms><![CDATA[w V n]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>120</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[cri-]]></y>
+				<p><![CDATA[kh r I]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>2520</posTick>
-				<durTick>120</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cri-]]></lyric>
-				<phnms><![CDATA[kh r I]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>720</t>
+				<dur>120</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ti-]]></y>
+				<p><![CDATA[t I]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>2640</posTick>
-				<durTick>120</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ti-]]></lyric>
-				<phnms><![CDATA[t I]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>840</t>
+				<dur>120</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[cal]]></y>
+				<p><![CDATA[k V l]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>11520</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[a2_low]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ay]]></y>
+				<p><![CDATA[eI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>2760</posTick>
-				<durTick>120</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cal]]></lyric>
-				<phnms><![CDATA[k V l]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>240</t>
+				<dur>240</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[two]]></y>
+				<p><![CDATA[th u:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>3840</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ay]]></lyric>
-				<phnms><![CDATA[eI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>360</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[low]]></y>
+				<p><![CDATA[l0 @U]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">9</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc>
+							<p>59638</p>
+							<v>64</v>
+						</cc>
+					</seq>
+					<seq id="vibRate">
+						<cc>
+							<p>59638</p>
+							<v>50</v>
+						</cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>13440</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[a2_critical]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ay]]></y>
+				<p><![CDATA[eI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>4080</posTick>
-				<durTick>240</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[two]]></lyric>
-				<phnms><![CDATA[th u:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>240</t>
+				<dur>240</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[two]]></y>
+				<p><![CDATA[th u:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>4440</posTick>
-				<durTick>360</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[low]]></lyric>
-				<phnms><![CDATA[l0 @U]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">9</attr>
-					<attr id="vibType">1</attr>
-					<seqAttr id="vibDep">
-						<elem>
-							<posNrm>59660</posNrm>
-							<elv>64</elv>
-						</elem>
-					</seqAttr>
-					<seqAttr id="vibRate">
-						<elem>
-							<posNrm>59660</posNrm>
-							<elv>50</elv>
-						</elem>
-					</seqAttr>
-				</noteStyle>
+				<t>600</t>
+				<dur>120</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[cri-]]></y>
+				<p><![CDATA[kh r I]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>5760</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ay]]></lyric>
-				<phnms><![CDATA[eI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>720</t>
+				<dur>120</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ti-]]></y>
+				<p><![CDATA[t I]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>6000</posTick>
-				<durTick>240</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[two]]></lyric>
-				<phnms><![CDATA[th u:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>840</t>
+				<dur>120</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[cal]]></y>
+				<p><![CDATA[k V l]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>15360</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[a3_low]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ay]]></y>
+				<p><![CDATA[eI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>6360</posTick>
-				<durTick>120</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cri-]]></lyric>
-				<phnms><![CDATA[kh r I]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>240</t>
+				<dur>240</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[three]]></y>
+				<p><![CDATA[T r i:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>6480</posTick>
-				<durTick>120</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ti-]]></lyric>
-				<phnms><![CDATA[t I]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>360</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[low]]></y>
+				<p><![CDATA[l0 @U]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">9</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc>
+							<p>59638</p>
+							<v>64</v>
+						</cc>
+					</seq>
+					<seq id="vibRate">
+						<cc>
+							<p>59638</p>
+							<v>50</v>
+						</cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>17280</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[a3_critical]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ay]]></y>
+				<p><![CDATA[eI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>6600</posTick>
-				<durTick>120</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cal]]></lyric>
-				<phnms><![CDATA[k V l]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>240</t>
+				<dur>240</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[three]]></y>
+				<p><![CDATA[T r i:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>7680</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ay]]></lyric>
-				<phnms><![CDATA[eI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>120</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[cri-]]></y>
+				<p><![CDATA[kh r I]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>7920</posTick>
-				<durTick>240</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[three]]></lyric>
-				<phnms><![CDATA[T r i:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>720</t>
+				<dur>120</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ti-]]></y>
+				<p><![CDATA[t I]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>8280</posTick>
-				<durTick>360</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[low]]></lyric>
-				<phnms><![CDATA[l0 @U]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">9</attr>
-					<attr id="vibType">1</attr>
-					<seqAttr id="vibDep">
-						<elem>
-							<posNrm>59660</posNrm>
-							<elv>64</elv>
-						</elem>
-					</seqAttr>
-					<seqAttr id="vibRate">
-						<elem>
-							<posNrm>59660</posNrm>
-							<elv>50</elv>
-						</elem>
-					</seqAttr>
-				</noteStyle>
+				<t>840</t>
+				<dur>120</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[cal]]></y>
+				<p><![CDATA[k V l]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>19200</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[a4_low]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ay]]></y>
+				<p><![CDATA[eI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>9600</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ay]]></lyric>
-				<phnms><![CDATA[eI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>240</t>
+				<dur>240</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[four]]></y>
+				<p><![CDATA[f O@]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>9840</posTick>
-				<durTick>240</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[three]]></lyric>
-				<phnms><![CDATA[T r i:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>360</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[low]]></y>
+				<p><![CDATA[l0 @U]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">9</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc>
+							<p>59638</p>
+							<v>64</v>
+						</cc>
+					</seq>
+					<seq id="vibRate">
+						<cc>
+							<p>59638</p>
+							<v>50</v>
+						</cc>
+					</seq>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>21120</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[a4_critical]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ay]]></y>
+				<p><![CDATA[eI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>10200</posTick>
-				<durTick>120</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cri-]]></lyric>
-				<phnms><![CDATA[kh r I]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>240</t>
+				<dur>240</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[four]]></y>
+				<p><![CDATA[f O@]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>10320</posTick>
-				<durTick>120</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ti-]]></lyric>
-				<phnms><![CDATA[t I]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>120</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[cri-]]></y>
+				<p><![CDATA[kh r I]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>10440</posTick>
-				<durTick>120</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cal]]></lyric>
-				<phnms><![CDATA[k V l]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>720</t>
+				<dur>120</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ti-]]></y>
+				<p><![CDATA[t I]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>11520</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ay]]></lyric>
-				<phnms><![CDATA[eI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>840</t>
+				<dur>120</dur>
+				<n>64</n>
+				<v>64</v>
+				<y><![CDATA[cal]]></y>
+				<p><![CDATA[k V l]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>23040</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[bad_eeprom]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>60</n>
+				<v>64</v>
+				<y><![CDATA[bad]]></y>
+				<p><![CDATA[bh { d]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>11760</posTick>
-				<durTick>240</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[four]]></lyric>
-				<phnms><![CDATA[f O@]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>360</t>
+				<dur>360</dur>
+				<n>61</n>
+				<v>64</v>
+				<y><![CDATA[ee]]></y>
+				<p><![CDATA[i:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>12120</posTick>
-				<durTick>360</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[low]]></lyric>
-				<phnms><![CDATA[l0 @U]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">9</attr>
-					<attr id="vibType">1</attr>
-					<seqAttr id="vibDep">
-						<elem>
-							<posNrm>59660</posNrm>
-							<elv>64</elv>
-						</elem>
-					</seqAttr>
-					<seqAttr id="vibRate">
-						<elem>
-							<posNrm>59660</posNrm>
-							<elv>50</elv>
-						</elem>
-					</seqAttr>
-				</noteStyle>
+				<t>720</t>
+				<dur>240</dur>
+				<n>60</n>
+				<v>64</v>
+				<y><![CDATA[prom]]></y>
+				<p><![CDATA[ph r Q m]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>24960</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[trim_maximum]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>62</n>
+				<v>64</v>
+				<y><![CDATA[trim]]></y>
+				<p><![CDATA[th r I m]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>13440</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ay]]></lyric>
-				<phnms><![CDATA[eI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>360</t>
+				<dur>240</dur>
+				<n>62</n>
+				<v>64</v>
+				<y><![CDATA[max]]></y>
+				<p><![CDATA[m { k s]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>13680</posTick>
-				<durTick>240</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[four]]></lyric>
-				<phnms><![CDATA[f O@]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>120</dur>
+				<n>63</n>
+				<v>64</v>
+				<y><![CDATA[i]]></y>
+				<p><![CDATA[aI]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>14040</posTick>
-				<durTick>120</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cri-]]></lyric>
-				<phnms><![CDATA[kh r I]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>720</t>
+				<dur>120</dur>
+				<n>62</n>
+				<v>64</v>
+				<y><![CDATA[mum]]></y>
+				<p><![CDATA[m V m]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>26880</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[inactivity]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>180</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[in]]></y>
+				<p><![CDATA[I n]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>14160</posTick>
-				<durTick>120</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ti-]]></lyric>
-				<phnms><![CDATA[t I]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>180</t>
+				<dur>180</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[act]]></y>
+				<p><![CDATA[{ k t]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>14280</posTick>
-				<durTick>120</durTick>
-				<noteNum>64</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cal]]></lyric>
-				<phnms><![CDATA[k V l]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>360</t>
+				<dur>120</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[e]]></y>
+				<p><![CDATA[i:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>15360</posTick>
-				<durTick>240</durTick>
-				<noteNum>60</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[bad]]></lyric>
-				<phnms><![CDATA[bh { d]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>480</t>
+				<dur>120</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ve]]></y>
+				<p><![CDATA[v i:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>15720</posTick>
-				<durTick>360</durTick>
-				<noteNum>61</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ee]]></lyric>
-				<phnms><![CDATA[i:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>180</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ti]]></y>
+				<p><![CDATA[th i:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>28800</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[low_battery]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[low]]></y>
+				<p><![CDATA[l0 @U]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>16080</posTick>
-				<durTick>240</durTick>
-				<noteNum>60</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[prom]]></lyric>
-				<phnms><![CDATA[ph r Q m]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>360</t>
+				<dur>120</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[ba-]]></y>
+				<p><![CDATA[bh {]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>17280</posTick>
-				<durTick>240</durTick>
-				<noteNum>62</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[trim]]></lyric>
-				<phnms><![CDATA[th r I m]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>480</t>
+				<dur>120</dur>
+				<n>65</n>
+				<v>64</v>
+				<y><![CDATA[tte-]]></y>
+				<p><![CDATA[t @r]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>17640</posTick>
-				<durTick>240</durTick>
-				<noteNum>62</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[max]]></lyric>
-				<phnms><![CDATA[m { k s]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>600</t>
+				<dur>180</dur>
+				<n>66</n>
+				<v>64</v>
+				<y><![CDATA[ry]]></y>
+				<p><![CDATA[i:]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>30720</t>
+			<playTime>1920</playTime>
+			<name><![CDATA[trim_centre]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<note>
+				<t>0</t>
+				<dur>240</dur>
+				<n>62</n>
+				<v>64</v>
+				<y><![CDATA[trim]]></y>
+				<p><![CDATA[th r I m]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>17880</posTick>
-				<durTick>120</durTick>
-				<noteNum>63</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[i]]></lyric>
-				<phnms><![CDATA[aI]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>360</t>
+				<dur>180</dur>
+				<n>63</n>
+				<v>64</v>
+				<y><![CDATA[cent-]]></y>
+				<p><![CDATA[s e n]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
 			<note>
-				<posTick>18000</posTick>
-				<durTick>120</durTick>
-				<noteNum>62</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[mum]]></lyric>
-				<phnms><![CDATA[m V m]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
+				<t>540</t>
+				<dur>120</dur>
+				<n>62</n>
+				<v>64</v>
+				<y><![CDATA[re]]></y>
+				<p><![CDATA[t @r]]></p>
+				<nStyle>
+					<v id="accent">0</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">0</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
 			</note>
-			<note>
-				<posTick>19200</posTick>
-				<durTick>180</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[in]]></lyric>
-				<phnms><![CDATA[I n]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>19380</posTick>
-				<durTick>180</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[act]]></lyric>
-				<phnms><![CDATA[{ k t]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>19560</posTick>
-				<durTick>120</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[e]]></lyric>
-				<phnms><![CDATA[i:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>19680</posTick>
-				<durTick>120</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ve]]></lyric>
-				<phnms><![CDATA[v i:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>19800</posTick>
-				<durTick>180</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ti]]></lyric>
-				<phnms><![CDATA[th i:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>21120</posTick>
-				<durTick>240</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[low]]></lyric>
-				<phnms><![CDATA[l0 @U]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>21480</posTick>
-				<durTick>120</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ba-]]></lyric>
-				<phnms><![CDATA[bh {]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>21600</posTick>
-				<durTick>120</durTick>
-				<noteNum>65</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[tte-]]></lyric>
-				<phnms><![CDATA[t @r]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>21720</posTick>
-				<durTick>180</durTick>
-				<noteNum>66</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[ry]]></lyric>
-				<phnms><![CDATA[i:]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>23040</posTick>
-				<durTick>240</durTick>
-				<noteNum>62</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[trim]]></lyric>
-				<phnms><![CDATA[th r I m]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>23400</posTick>
-				<durTick>180</durTick>
-				<noteNum>63</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[cent-]]></lyric>
-				<phnms><![CDATA[s e n]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-			<note>
-				<posTick>23580</posTick>
-				<durTick>120</durTick>
-				<noteNum>62</noteNum>
-				<velocity>64</velocity>
-				<lyric><![CDATA[re]]></lyric>
-				<phnms><![CDATA[t @r]]></phnms>
-				<noteStyle>
-					<attr id="accent">0</attr>
-					<attr id="bendDep">8</attr>
-					<attr id="bendLen">0</attr>
-					<attr id="decay">0</attr>
-					<attr id="fallPort">0</attr>
-					<attr id="opening">127</attr>
-					<attr id="risePort">0</attr>
-					<attr id="vibLen">0</attr>
-					<attr id="vibType">0</attr>
-				</noteStyle>
-			</note>
-		</musicalPart>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>32640</t>
+			<playTime>1440</playTime>
+			<name><![CDATA[a4_critical]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>1</pc>
+			</singer>
+			<plane>0</plane>
+		</vsPart>
 	</vsTrack>
-	<seTrack>
-	</seTrack>
-	<karaokeTrack>
-	</karaokeTrack>
+	<monoTrack>
+	</monoTrack>
+	<stTrack>
+	</stTrack>
 	<aux>
-		<auxID><![CDATA[AUX_TINY_SPECIAL_INFO]]></auxID>
-		<content><![CDATA[AQAAAA==]]></content>
+		<id><![CDATA[AUX_VST_HOST_CHUNK_INFO]]></id>
+		<content><![CDATA[VlNDSwAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></content>
 	</aux>
-</vsq3>
+</vsq4>
