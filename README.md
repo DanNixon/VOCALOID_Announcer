@@ -8,8 +8,7 @@ end of each message.
 
 ## To use
 
-1. Load the VSQs in to VOCALOID and export a WAV, ensure that measure 0 is at
-   the start of the WAV
+1. Load the VSQs in to VOCALOID and export a WAV
 2. Load the WAV into an editor such as Audacty
 3. Convert it to mono by splitting the stereo track, removing one and setting
    the other to mono
@@ -20,3 +19,8 @@ end of each message.
 
 Steps 2 - 5 may not be needed on some radios (e.g. Taranis) but definitely are
 on radios such as the 9XR-PRO.
+
+## Requirements
+
+- [Pydub](https://github.com/jiaaro/pydub)
+- [xmltodict](https://github.com/martinblech/xmltodict)
