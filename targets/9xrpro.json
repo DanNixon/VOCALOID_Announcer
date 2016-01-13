@@ -188,12 +188,12 @@
     "a4_red.wav"      : "a4_critical",
     "eebad.wav"       : "bad_eeprom",
     "endtrim.wav"     : "trim_maximum",
-    "inactiv.wav"     : "inactivity_alarm",
+    "inactiv.wav"     : "inactivity",
     "lowbatt.wav"     : "low_battery",
     "midtrim.wav"     : "trim_centre",
     "rssi_org.wav"    : "rssi_low",
     "rssi_red.wav"    : "rssi_critical",
-    "rx_org.wac"      : "rx_battery_low",
+    "rx_org.wav"      : "rx_battery_low",
     "rx_red.wav"      : "rx_battery_critical",
     "swalert.wav"     : "switch_warning",
     "swr_red.wav"     : "radio_antenna_defective",
@@ -202,9 +202,9 @@
     "telemko.wav"     : "telemetry_lost",
     "telemok.wav"     : "telemetry_recovered",
     "thralert.wav"    : "throttle_warning",
-    "timer10"         : "10_seconds",
-    "timer20"         : "20_seconds",
-    "timer20"         : "30_seconds",
-    "timerlt3"        : "time_up"
+    "timer10.wav"     : "10_seconds",
+    "timer20.wav"     : "20_seconds",
+    "timer30.wav"     : "30_seconds",
+    "timerlt3.wav"    : "time_up"
   }
 }
