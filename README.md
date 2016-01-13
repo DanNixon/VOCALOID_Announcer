@@ -8,7 +8,8 @@ end of each message.
 
 ## To use
 
-1. Load the VSQs in to VOCALOID and export a WAV
+1. Load the VSQs in to VOCALOID and export a WAV, ensure that start of audio
+   aligns with start of first part/region
 2. Load the WAV into an editor such as Audacty
 3. Convert it to mono by splitting the stereo track, removing one and setting
    the other to mono
