@@ -1168,8 +1168,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>25920</t>
-			<playTime>1080</playTime>
+			<t>25860</t>
+			<playTime>1140</playTime>
 			<name><![CDATA[bad_eeprom]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -1200,7 +1200,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>60</t>
 				<dur>360</dur>
 				<n>58</n>
 				<v>64</v>
@@ -1219,7 +1219,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>480</t>
+				<t>540</t>
 				<dur>360</dur>
 				<n>58</n>
 				<v>64</v>
@@ -1238,7 +1238,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>840</t>
+				<t>900</t>
 				<dur>240</dur>
 				<n>57</n>
 				<v>64</v>
@@ -1259,8 +1259,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>27360</t>
-			<playTime>1020</playTime>
+			<t>27300</t>
+			<playTime>1080</playTime>
 			<name><![CDATA[inactivity]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -1291,7 +1291,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>60</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
@@ -1310,7 +1310,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>240</t>
+				<t>300</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1329,7 +1329,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>420</t>
+				<t>480</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
@@ -1348,7 +1348,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>600</t>
+				<t>660</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
@@ -1367,7 +1367,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>780</t>
+				<t>840</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1388,8 +1388,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>28800</t>
-			<playTime>960</playTime>
+			<t>28680</t>
+			<playTime>1080</playTime>
 			<name><![CDATA[low_battery]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -1420,7 +1420,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>120</t>
 				<dur>300</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1451,7 +1451,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>420</t>
+				<t>540</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1470,7 +1470,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>600</t>
+				<t>720</t>
 				<dur>120</dur>
 				<n>58</n>
 				<v>64</v>
@@ -1489,7 +1489,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>720</t>
+				<t>840</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1522,8 +1522,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>30240</t>
-			<playTime>1380</playTime>
+			<t>30120</t>
+			<playTime>1500</playTime>
 			<name><![CDATA[rssi_low]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -1554,7 +1554,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>120</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1573,7 +1573,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>240</t>
+				<t>360</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1592,7 +1592,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>480</t>
+				<t>600</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1611,7 +1611,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>720</t>
+				<t>840</t>
 				<dur>300</dur>
 				<n>59</n>
 				<v>127</v>
@@ -1630,7 +1630,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1140</t>
+				<t>1260</t>
 				<dur>240</dur>
 				<n>57</n>
 				<v>64</v>
@@ -1651,8 +1651,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>32160</t>
-			<playTime>1620</playTime>
+			<t>32040</t>
+			<playTime>1740</playTime>
 			<name><![CDATA[rssi_critical]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -1683,7 +1683,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>120</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1702,7 +1702,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>240</t>
+				<t>360</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1721,7 +1721,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>480</t>
+				<t>600</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1740,7 +1740,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>720</t>
+				<t>840</t>
 				<dur>300</dur>
 				<n>59</n>
 				<v>127</v>
@@ -1759,7 +1759,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1140</t>
+				<t>1260</t>
 				<dur>120</dur>
 				<n>57</n>
 				<v>64</v>
@@ -1778,7 +1778,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1260</t>
+				<t>1380</t>
 				<dur>120</dur>
 				<n>58</n>
 				<v>64</v>
@@ -1797,7 +1797,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1380</t>
+				<t>1500</t>
 				<dur>240</dur>
 				<n>57</n>
 				<v>64</v>
@@ -1818,8 +1818,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>34560</t>
-			<playTime>960</playTime>
+			<t>34380</t>
+			<playTime>1140</playTime>
 			<name><![CDATA[10_seconds]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -1850,7 +1850,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>180</t>
 				<dur>420</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1869,7 +1869,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>480</t>
+				<t>660</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -1888,7 +1888,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>660</t>
+				<t>840</t>
 				<dur>300</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2129,8 +2129,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>38880</t>
-			<playTime>720</playTime>
+			<t>38820</t>
+			<playTime>780</playTime>
 			<name><![CDATA[time_up]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -2161,7 +2161,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>60</t>
 				<dur>360</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2180,7 +2180,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>420</t>
+				<t>480</t>
 				<dur>300</dur>
 				<n>60</n>
 				<v>64</v>
@@ -2201,8 +2201,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>40320</t>
-			<playTime>1740</playTime>
+			<t>40260</t>
+			<playTime>1800</playTime>
 			<name><![CDATA[rx_battery_low]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -2233,7 +2233,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>60</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2252,7 +2252,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>180</t>
+				<t>240</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
@@ -2271,7 +2271,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>360</t>
+				<t>420</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2290,7 +2290,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>720</t>
+				<t>780</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2309,7 +2309,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>900</t>
+				<t>960</t>
 				<dur>120</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2328,7 +2328,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1020</t>
+				<t>1080</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2347,7 +2347,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1380</t>
+				<t>1440</t>
 				<dur>360</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2368,8 +2368,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>42720</t>
-			<playTime>1860</playTime>
+			<t>42660</t>
+			<playTime>1920</playTime>
 			<name><![CDATA[rx_battery_critical]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -2400,7 +2400,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>60</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2419,7 +2419,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>180</t>
+				<t>240</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
@@ -2438,7 +2438,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>360</t>
+				<t>420</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2457,7 +2457,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>720</t>
+				<t>780</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2476,7 +2476,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>900</t>
+				<t>960</t>
 				<dur>120</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2495,7 +2495,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1020</t>
+				<t>1080</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2514,7 +2514,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1380</t>
+				<t>1440</t>
 				<dur>120</dur>
 				<n>57</n>
 				<v>64</v>
@@ -2533,7 +2533,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1500</t>
+				<t>1560</t>
 				<dur>120</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2552,7 +2552,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1620</t>
+				<t>1680</t>
 				<dur>240</dur>
 				<n>57</n>
 				<v>64</v>
@@ -2573,8 +2573,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>45000</t>
-			<playTime>900</playTime>
+			<t>44880</t>
+			<playTime>1020</playTime>
 			<name><![CDATA[switch_warning]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -2605,7 +2605,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>120</t>
+				<t>240</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2624,7 +2624,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>420</t>
+				<t>540</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2643,7 +2643,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>660</t>
+				<t>780</t>
 				<dur>240</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2774,8 +2774,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>48000</t>
-			<playTime>1500</playTime>
+			<t>47880</t>
+			<playTime>1620</playTime>
 			<name><![CDATA[radio_antenna_defective]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -2806,7 +2806,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>120</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2825,7 +2825,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>180</t>
+				<t>300</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2844,7 +2844,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>360</t>
+				<t>480</t>
 				<dur>180</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2863,7 +2863,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>660</t>
+				<t>780</t>
 				<dur>120</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2882,7 +2882,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>780</t>
+				<t>900</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2901,7 +2901,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>960</t>
+				<t>1080</t>
 				<dur>180</dur>
 				<n>58</n>
 				<v>64</v>
@@ -2920,7 +2920,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1260</t>
+				<t>1380</t>
 				<dur>240</dur>
 				<n>59</n>
 				<v>64</v>
@@ -2941,8 +2941,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>49920</t>
-			<playTime>1620</playTime>
+			<t>49800</t>
+			<playTime>1740</playTime>
 			<name><![CDATA[welcome]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -2973,7 +2973,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>120</t>
 				<dur>240</dur>
 				<n>65</n>
 				<v>64</v>
@@ -2992,7 +2992,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>240</t>
+				<t>360</t>
 				<dur>240</dur>
 				<n>64</n>
 				<v>64</v>
@@ -3011,7 +3011,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>600</t>
+				<t>720</t>
 				<dur>180</dur>
 				<n>64</n>
 				<v>64</v>
@@ -3030,7 +3030,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>840</t>
+				<t>960</t>
 				<dur>180</dur>
 				<n>65</n>
 				<v>64</v>
@@ -3049,7 +3049,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1020</t>
+				<t>1140</t>
 				<dur>180</dur>
 				<n>64</n>
 				<v>64</v>
@@ -3068,9 +3068,9 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1260</t>
+				<t>1380</t>
 				<dur>180</dur>
-				<n>65</n>
+				<n>64</n>
 				<v>64</v>
 				<y><![CDATA[t]]></y>
 				<p><![CDATA[th i:]]></p>
@@ -3087,9 +3087,9 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1440</t>
+				<t>1560</t>
 				<dur>180</dur>
-				<n>64</n>
+				<n>65</n>
 				<v>64</v>
 				<y><![CDATA[x]]></y>
 				<p><![CDATA[e k s]]></p>
@@ -3108,8 +3108,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>52320</t>
-			<playTime>1320</playTime>
+			<t>52260</t>
+			<playTime>1380</playTime>
 			<name><![CDATA[telemetry_lost]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -3140,7 +3140,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>60</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -3159,7 +3159,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>180</t>
+				<t>240</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
@@ -3178,7 +3178,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>360</t>
+				<t>420</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -3197,7 +3197,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>540</t>
+				<t>600</t>
 				<dur>300</dur>
 				<n>59</n>
 				<v>64</v>
@@ -3216,7 +3216,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>960</t>
+				<t>1020</t>
 				<dur>360</dur>
 				<n>57</n>
 				<v>64</v>
@@ -3237,8 +3237,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>54240</t>
-			<playTime>1500</playTime>
+			<t>54180</t>
+			<playTime>1560</playTime>
 			<name><![CDATA[telemetry_recovered]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -3269,7 +3269,7 @@
 				<v id="G">55</v>
 			</cc>
 			<note>
-				<t>0</t>
+				<t>60</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -3288,7 +3288,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>180</t>
+				<t>240</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
@@ -3307,7 +3307,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>360</t>
+				<t>420</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -3326,7 +3326,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>540</t>
+				<t>600</t>
 				<dur>300</dur>
 				<n>59</n>
 				<v>64</v>
@@ -3345,7 +3345,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>960</t>
+				<t>1020</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
@@ -3364,7 +3364,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1140</t>
+				<t>1200</t>
 				<dur>180</dur>
 				<n>59</n>
 				<v>64</v>
@@ -3383,7 +3383,7 @@
 				</nStyle>
 			</note>
 			<note>
-				<t>1320</t>
+				<t>1380</t>
 				<dur>180</dur>
 				<n>60</n>
 				<v>64</v>
