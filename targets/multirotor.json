@@ -1,0 +1,20 @@
+{
+  "profile": "Multirotor OpenTX Sound Pack Addon",
+  "directory": "./out/multirotor/SOUNDS/en/",
+  "audio_format": {
+    "channels": 1,
+    "sample_freq": 32000,
+    "gain": 20
+  },
+  "sounds": {
+    "angle.wav"     : "angle_mode",
+    "acro.wav"      : "acro_mode",
+    "horiz.wav"     : "horizon_mode",
+    "hfeee.wav"     : "headfree_mode",
+    "hfreer.wav"    : "headfree_reset",
+    "arm.wav"       : "arming",
+    "disarm.wav"    : "disarmed",
+    "beepon.wav"    : "beeper_on",
+    "nobeep.wav"    : "beeper_off"
+  }
+}
