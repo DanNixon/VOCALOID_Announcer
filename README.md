@@ -9,16 +9,8 @@ into the radios SD card.
 ## To use
 
 1. Load the VSQs in to VOCALOID and export a WAV
-2. Load the WAV into an editor such as Audacty
-3. Convert it to mono by splitting the stereo track, removing one and setting
-   the other to mono
-4. Set the project sample rate to 32000 Hz
-5. Export a new WAV to the `source` folder
-6. Run the `converter` script
-7. Upload to TX
-
-Steps 2 - 5 may not be needed on some radios (e.g. Taranis) but definitely are
-on radios such as the 9XR-PRO.
+2. Run the `converter` script
+3. Upload to TX
 
 ## VSQ file requirements
 
