@@ -15,6 +15,18 @@
     "arm.wav"       : "arming",
     "disarm.wav"    : "disarmed",
     "beepon.wav"    : "beeper_on",
-    "nobeep.wav"    : "beeper_off"
+    "nobeep.wav"    : "beeper_off",
+    "inc.wav"       : "increase",
+    "dec.wav"       : "decrease",
+    "pit_p.wav"     : "pitch_proportional",
+    "pit_i.wav"     : "pitch_integral",
+    "pit_d.wav"     : "pitch_derivative",
+    "rol_p.wav"     : "roll_proportional",
+    "rol_i.wav"     : "roll_integral",
+    "rol_d.wav"     : "roll_derivative",
+    "yaw_p.wav"     : "yaw_proportional",
+    "yaw_i.wav"     : "yaw_integral",
+    "yaw_d.wav"     : "yaw_derivative",
+    "pid_dis.wav"   : "pid_tune_disable"
   }
 }
