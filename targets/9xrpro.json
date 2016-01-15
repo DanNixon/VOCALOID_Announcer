@@ -4,7 +4,7 @@
   "audio_format": {
     "channels": 1,
     "sample_freq": 32000,
-    "gain": 20
+    "gain": 22
   },
   "sounds": {
     "0000.wav"        : "0",
