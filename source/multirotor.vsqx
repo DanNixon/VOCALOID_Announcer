@@ -110,6 +110,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>360</dur>
@@ -205,6 +209,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>360</dur>
@@ -300,6 +308,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>360</dur>
@@ -395,6 +407,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>360</dur>
@@ -497,6 +513,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>240</dur>
@@ -611,6 +631,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>360</dur>
@@ -675,6 +699,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>360</dur>
@@ -739,6 +767,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>240</dur>
@@ -822,6 +854,10 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
 				<t>120</t>
 				<dur>240</dur>
