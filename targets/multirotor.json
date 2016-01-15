@@ -10,7 +10,7 @@
     "angle.wav"     : "angle_mode",
     "acro.wav"      : "acro_mode",
     "horiz.wav"     : "horizon_mode",
-    "hfeee.wav"     : "headfree_mode",
+    "hfree.wav"     : "headfree_mode",
     "hfreer.wav"    : "headfree_reset",
     "arm.wav"       : "arming",
     "disarm.wav"    : "disarmed",
