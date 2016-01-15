@@ -34,7 +34,17 @@ def parse_cli():
         help='Input sound definition file'
     )
 
-    parser.add_argument(
+    subparsers = parser.add_subparsers(help='operation to be performed')
+
+    # List sounds mode
+    list_parser = subparsers.add_parser('list')
+    list_parser.set_defaults(mode='list')
+
+    # Convert mode
+    convert_parser = subparsers.add_parser('convert')
+    convert_parser.set_defaults(mode='convert')
+
+    convert_parser.add_argument(
         '-o', '--output',
         action='append',
         type=str,
@@ -191,8 +201,16 @@ if __name__ == '__main__':
         read_vsq_file(data)
         sound_files[name] = data
 
+    # List all input sounds
+    if props.mode == 'list':
+        for name, data in sound_files.items():
+            print('Sound pack: {0}'.format(name))
+            for sound in data['vsq_voice_track']['vsPart']:
+                print('\t- {0}'.format(sound['name']))
+
     # Read and process targets
-    for f in props.output:
-        data = read_json_file(f)[1]
-        process_target(data, sound_files)
+    elif props.mode == 'convert':
+        for f in props.output:
+            data = read_json_file(f)[1]
+            process_target(data, sound_files)
 
