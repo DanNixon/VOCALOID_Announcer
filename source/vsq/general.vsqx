@@ -37,7 +37,7 @@
 			<iGin>0</iGin>
 			<sLvl>-898</sLvl>
 			<sEnable>0</sEnable>
-			<m>0</m>
+			<m>1</m>
 			<s>0</s>
 			<pan>64</pan>
 			<vol>0</vol>
@@ -112,10 +112,6 @@
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
-			</cc>
-			<cc>
-				<t>0</t>
 				<v id="D">103</v>
 			</cc>
 			<cc>
@@ -182,7 +178,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>9600</t>
+			<t>10080</t>
 			<playTime>1440</playTime>
 			<name><![CDATA[a1_critical]]></name>
 			<comment><![CDATA[]]></comment>
@@ -207,10 +203,6 @@
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
-			</cc>
-			<cc>
-				<t>0</t>
 				<v id="D">103</v>
 			</cc>
 			<cc>
@@ -315,7 +307,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>11520</t>
+			<t>12480</t>
 			<playTime>1440</playTime>
 			<name><![CDATA[a2_low]]></name>
 			<comment><![CDATA[]]></comment>
@@ -340,10 +332,6 @@
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
-			</cc>
-			<cc>
-				<t>0</t>
 				<v id="D">103</v>
 			</cc>
 			<cc>
@@ -410,7 +398,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>13440</t>
+			<t>14880</t>
 			<playTime>1440</playTime>
 			<name><![CDATA[a2_critical]]></name>
 			<comment><![CDATA[]]></comment>
@@ -435,10 +423,6 @@
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
-			</cc>
-			<cc>
-				<t>0</t>
 				<v id="D">103</v>
 			</cc>
 			<cc>
@@ -543,7 +527,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>15360</t>
+			<t>17280</t>
 			<playTime>1440</playTime>
 			<name><![CDATA[a3_low]]></name>
 			<comment><![CDATA[]]></comment>
@@ -566,10 +550,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -638,7 +618,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>17280</t>
+			<t>19680</t>
 			<playTime>1440</playTime>
 			<name><![CDATA[a3_critical]]></name>
 			<comment><![CDATA[]]></comment>
@@ -661,10 +641,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -771,7 +747,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>19200</t>
+			<t>22080</t>
 			<playTime>1440</playTime>
 			<name><![CDATA[a4_low]]></name>
 			<comment><![CDATA[]]></comment>
@@ -794,10 +770,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -866,7 +838,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>21120</t>
+			<t>24480</t>
 			<playTime>1440</playTime>
 			<name><![CDATA[a4_critical]]></name>
 			<comment><![CDATA[]]></comment>
@@ -889,10 +861,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -999,7 +967,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>22800</t>
+			<t>26880</t>
 			<playTime>1260</playTime>
 			<name><![CDATA[trim_centre]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1022,10 +990,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -1094,7 +1058,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>24240</t>
+			<t>29100</t>
 			<playTime>1200</playTime>
 			<name><![CDATA[trim_maximum]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1117,10 +1081,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -1208,7 +1168,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>25860</t>
+			<t>31260</t>
 			<playTime>1140</playTime>
 			<name><![CDATA[bad_eeprom]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1231,10 +1191,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -1303,7 +1259,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>27300</t>
+			<t>33360</t>
 			<playTime>1080</playTime>
 			<name><![CDATA[inactivity]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1326,10 +1282,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -1436,7 +1388,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>28680</t>
+			<t>35400</t>
 			<playTime>1080</playTime>
 			<name><![CDATA[low_battery]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1459,10 +1411,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -1574,7 +1522,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>30120</t>
+			<t>37440</t>
 			<playTime>1500</playTime>
 			<name><![CDATA[rssi_low]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1597,10 +1545,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -1707,7 +1651,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>32040</t>
+			<t>39900</t>
 			<playTime>1740</playTime>
 			<name><![CDATA[rssi_critical]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1730,10 +1674,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -1878,7 +1818,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>34380</t>
+			<t>42600</t>
 			<playTime>1140</playTime>
 			<name><![CDATA[10_seconds]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1901,10 +1841,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -1973,7 +1909,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>35820</t>
+			<t>44700</t>
 			<playTime>1140</playTime>
 			<name><![CDATA[20_seconds]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1996,10 +1932,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -2087,7 +2019,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>37260</t>
+			<t>46800</t>
 			<playTime>1140</playTime>
 			<name><![CDATA[30_seconds]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2110,10 +2042,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -2201,7 +2129,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>38820</t>
+			<t>48900</t>
 			<playTime>780</playTime>
 			<name><![CDATA[time_up]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2224,10 +2152,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -2277,7 +2201,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>40260</t>
+			<t>50640</t>
 			<playTime>1800</playTime>
 			<name><![CDATA[rx_battery_low]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2300,10 +2224,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -2448,7 +2368,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>42660</t>
+			<t>53400</t>
 			<playTime>1920</playTime>
 			<name><![CDATA[rx_battery_critical]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2471,10 +2391,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -2657,7 +2573,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>44880</t>
+			<t>56280</t>
 			<playTime>1020</playTime>
 			<name><![CDATA[switch_warning]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2680,10 +2596,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -2752,7 +2664,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>46440</t>
+			<t>58260</t>
 			<playTime>1080</playTime>
 			<name><![CDATA[throttle_warning]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2775,10 +2687,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -2866,7 +2774,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>47880</t>
+			<t>60300</t>
 			<playTime>1620</playTime>
 			<name><![CDATA[radio_antenna_defective]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2889,10 +2797,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -3037,7 +2941,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>49800</t>
+			<t>62880</t>
 			<playTime>1740</playTime>
 			<name><![CDATA[welcome]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3060,10 +2964,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -3208,7 +3108,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>52260</t>
+			<t>65580</t>
 			<playTime>1380</playTime>
 			<name><![CDATA[telemetry_lost]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3231,10 +3131,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>
@@ -3341,7 +3237,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>54180</t>
+			<t>67920</t>
 			<playTime>1560</playTime>
 			<name><![CDATA[telemetry_recovered]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3364,10 +3260,6 @@
 				<bs>1</bs>
 				<pc>2</pc>
 			</singer>
-			<cc>
-				<t>0</t>
-				<v id="D">100</v>
-			</cc>
 			<cc>
 				<t>0</t>
 				<v id="D">103</v>

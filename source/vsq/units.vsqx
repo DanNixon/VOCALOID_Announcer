@@ -136,7 +136,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>8280</t>
+			<t>9120</t>
 			<playTime>480</playTime>
 			<name><![CDATA[volts]]></name>
 			<comment><![CDATA[]]></comment>
@@ -185,7 +185,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>8880</t>
+			<t>10560</t>
 			<playTime>540</playTime>
 			<name><![CDATA[amp]]></name>
 			<comment><![CDATA[]]></comment>
@@ -234,7 +234,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>9540</t>
+			<t>12060</t>
 			<playTime>600</playTime>
 			<name><![CDATA[amps]]></name>
 			<comment><![CDATA[]]></comment>
@@ -283,7 +283,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>10260</t>
+			<t>13620</t>
 			<playTime>900</playTime>
 			<name><![CDATA[milliamp]]></name>
 			<comment><![CDATA[]]></comment>
@@ -370,7 +370,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>11280</t>
+			<t>15480</t>
 			<playTime>960</playTime>
 			<name><![CDATA[milliamps]]></name>
 			<comment><![CDATA[]]></comment>
@@ -457,7 +457,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>12360</t>
+			<t>17400</t>
 			<playTime>420</playTime>
 			<name><![CDATA[knot]]></name>
 			<comment><![CDATA[]]></comment>
@@ -506,7 +506,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>12900</t>
+			<t>18780</t>
 			<playTime>420</playTime>
 			<name><![CDATA[knots]]></name>
 			<comment><![CDATA[]]></comment>
@@ -555,7 +555,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>13440</t>
+			<t>20160</t>
 			<playTime>1020</playTime>
 			<name><![CDATA[metre_per_second]]></name>
 			<comment><![CDATA[]]></comment>
@@ -680,7 +680,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>14580</t>
+			<t>22140</t>
 			<playTime>960</playTime>
 			<name><![CDATA[metres_per_second]]></name>
 			<comment><![CDATA[]]></comment>
@@ -805,7 +805,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>15660</t>
+			<t>24060</t>
 			<playTime>960</playTime>
 			<name><![CDATA[foot_per_second]]></name>
 			<comment><![CDATA[]]></comment>
@@ -911,7 +911,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>16740</t>
+			<t>25920</t>
 			<playTime>900</playTime>
 			<name><![CDATA[feet_per_second]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1017,7 +1017,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>17760</t>
+			<t>27780</t>
 			<playTime>1140</playTime>
 			<name><![CDATA[kph]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1180,7 +1180,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>19020</t>
+			<t>29880</t>
 			<playTime>1143</playTime>
 			<name><![CDATA[kphs]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1343,7 +1343,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>20280</t>
+			<t>31980</t>
 			<playTime>780</playTime>
 			<name><![CDATA[mph]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1449,7 +1449,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>21180</t>
+			<t>33720</t>
 			<playTime>780</playTime>
 			<name><![CDATA[mphs]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1555,7 +1555,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>22080</t>
+			<t>35460</t>
 			<playTime>480</playTime>
 			<name><![CDATA[metre]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1623,7 +1623,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>22680</t>
+			<t>36900</t>
 			<playTime>600</playTime>
 			<name><![CDATA[metres]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1691,7 +1691,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>23400</t>
+			<t>38460</t>
 			<playTime>480</playTime>
 			<name><![CDATA[foot]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1740,7 +1740,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>24000</t>
+			<t>39900</t>
 			<playTime>480</playTime>
 			<name><![CDATA[feet]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1789,7 +1789,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>24600</t>
+			<t>41340</t>
 			<playTime>660</playTime>
 			<name><![CDATA[degree]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1857,7 +1857,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>25380</t>
+			<t>42960</t>
 			<playTime>720</playTime>
 			<name><![CDATA[degrees]]></name>
 			<comment><![CDATA[]]></comment>
@@ -1925,7 +1925,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>26220</t>
+			<t>44640</t>
 			<playTime>1200</playTime>
 			<name><![CDATA[degree_f]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2050,7 +2050,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>27540</t>
+			<t>46800</t>
 			<playTime>1260</playTime>
 			<name><![CDATA[degrees_f]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2175,7 +2175,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>28920</t>
+			<t>49020</t>
 			<playTime>600</playTime>
 			<name><![CDATA[percent]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2243,7 +2243,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>29640</t>
+			<t>50580</t>
 			<playTime>900</playTime>
 			<name><![CDATA[milliamp_hour]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2368,7 +2368,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>30660</t>
+			<t>52440</t>
 			<playTime>1020</playTime>
 			<name><![CDATA[milliamp_hours]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2493,7 +2493,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>31800</t>
+			<t>54420</t>
 			<playTime>420</playTime>
 			<name><![CDATA[watt]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2542,7 +2542,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>32340</t>
+			<t>55800</t>
 			<playTime>420</playTime>
 			<name><![CDATA[watts]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2591,7 +2591,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>32880</t>
+			<t>57180</t>
 			<playTime>720</playTime>
 			<name><![CDATA[db]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2659,7 +2659,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>33720</t>
+			<t>58860</t>
 			<playTime>900</playTime>
 			<name><![CDATA[rpm]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2746,7 +2746,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>34740</t>
+			<t>60720</t>
 			<playTime>420</playTime>
 			<name><![CDATA[g]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2814,7 +2814,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>35280</t>
+			<t>62100</t>
 			<playTime>840</playTime>
 			<name><![CDATA[milliliter]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2920,7 +2920,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>36240</t>
+			<t>63900</t>
 			<playTime>900</playTime>
 			<name><![CDATA[milliliters]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3026,7 +3026,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>37260</t>
+			<t>65760</t>
 			<playTime>780</playTime>
 			<name><![CDATA[fl_oz]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3113,7 +3113,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>38160</t>
+			<t>67500</t>
 			<playTime>960</playTime>
 			<name><![CDATA[fl_ozs]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3219,7 +3219,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>39240</t>
+			<t>69420</t>
 			<playTime>480</playTime>
 			<name><![CDATA[hour]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3287,7 +3287,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>39840</t>
+			<t>70860</t>
 			<playTime>480</playTime>
 			<name><![CDATA[hours]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3355,7 +3355,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>40440</t>
+			<t>72300</t>
 			<playTime>540</playTime>
 			<name><![CDATA[minute]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3423,7 +3423,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>41100</t>
+			<t>73800</t>
 			<playTime>540</playTime>
 			<name><![CDATA[minutes]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3491,7 +3491,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>41760</t>
+			<t>75300</t>
 			<playTime>540</playTime>
 			<name><![CDATA[second]]></name>
 			<comment><![CDATA[]]></comment>
@@ -3559,7 +3559,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>42420</t>
+			<t>76800</t>
 			<playTime>540</playTime>
 			<name><![CDATA[seconds]]></name>
 			<comment><![CDATA[]]></comment>
