@@ -1,2 +1,1 @@
-Put WAV files exported form VOCALOID here.
-
+Put WAV files exported from VOCALOID here.
