@@ -1,6 +1,6 @@
 {
-  "profile": "9XR-PRO OpenTX Sound Pack",
-  "directory": "./out/9xrpro/SOUNDS/en/SYSTEM",
+  "profile": "OpenTX System Sound Pack",
+  "directory": "./out/SOUNDS/en/SYSTEM",
   "audio_format": {
     "channels": 1,
     "sample_freq": 32000,
