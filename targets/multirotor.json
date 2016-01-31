@@ -27,6 +27,14 @@
     "yaw_p.wav"     : "yaw_proportional",
     "yaw_i.wav"     : "yaw_integral",
     "yaw_d.wav"     : "yaw_derivative",
-    "pid_dis.wav"   : "pid_tune_disable"
+    "pid_dis.wav"   : "pid_tune_disable",
+    "pid_p.wav"     : "pitch_gain",
+    "pid_i.wav"     : "integral_gain",
+    "pid_d.wav"     : "derivative_gain",
+    "pid_pit.wav"   : "pitch_axis",
+    "pid_rol.wav"   : "roll_axis",
+    "pin_yaw.wav"   : "yaw_axis",
+    "batlow.wav"    : "model_battery_low",
+    "batcrit.wav"   : "model_battery_critical"
   }
 }
