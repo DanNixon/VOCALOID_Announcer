@@ -28,7 +28,7 @@
     "yaw_i.wav"     : "yaw_integral",
     "yaw_d.wav"     : "yaw_derivative",
     "pid_dis.wav"   : "pid_tune_disable",
-    "pid_p.wav"     : "pitch_gain",
+    "pid_p.wav"     : "proportional_gain",
     "pid_i.wav"     : "integral_gain",
     "pid_d.wav"     : "derivative_gain",
     "pid_pit.wav"   : "pitch_axis",
