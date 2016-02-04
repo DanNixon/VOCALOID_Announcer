@@ -35,6 +35,10 @@
     "pid_rol.wav"   : "roll_axis",
     "pin_yaw.wav"   : "yaw_axis",
     "batlow.wav"    : "model_battery_low",
-    "batcrit.wav"   : "model_battery_critical"
+    "batcrit.wav"   : "model_battery_critical",
+    "noflip.wav"    : "flip_disable",
+    "flipon.wav"    : "flip_enable",
+    "nolight.wav"   : "lights_off",
+    "lighton.wav"   : "lights_on"
   }
 }
