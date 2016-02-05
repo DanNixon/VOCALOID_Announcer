@@ -39,6 +39,8 @@
     "noflip.wav"    : "flip_disable",
     "flipon.wav"    : "flip_enable",
     "nolight.wav"   : "lights_off",
-    "lighton.wav"   : "lights_on"
+    "lighton.wav"   : "lights_on",
+    "vidrec.wav"    : "video_recording_started",
+    "novrec.wav"    : "video_recording_stopped"
   }
 }
