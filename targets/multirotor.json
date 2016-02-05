@@ -1,6 +1,6 @@
 {
   "profile": "Multirotor OpenTX Sound Pack Addon",
-  "directory": "./out/multirotor/SOUNDS/en/",
+  "directory": "./out/SOUNDS/en/",
   "audio_format": {
     "channels": 1,
     "sample_freq": 32000,
