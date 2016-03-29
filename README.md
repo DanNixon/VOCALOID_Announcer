@@ -1,6 +1,7 @@
-# OpenTX VOCALOID Voices
+# VOCALOID Announcer
 
-Voice packs for OpenTX created with VOCALOID.
+Tool for creating announcment sound files from VSQ files and an exported audio
+track.
 
 The various messages are defines in several VSQ files and split by the
 `converter` script using data in the JSON files to output a folder to be dropped
@@ -8,9 +9,11 @@ into the radios SD card.
 
 ## To use
 
-1. Load the VSQs in to VOCALOID and export a WAV
-2. Run the `converter` script
-3. Upload to TX
+1. Create/load a VSQ and export a WAV
+2. If creating a new VSQ, create a new source `.json` file
+3. Create a new target `.json` if required
+4. Run the `converter` script (run `./converter -h` for usage)
+5. Use the sound files!
 
 ## VSQ file requirements
 
