@@ -3,10 +3,6 @@
 Tool for creating announcment sound files from VSQ files and an exported audio
 track.
 
-The various messages are defines in several VSQ files and split by the
-`converter` script using data in the JSON files to output a folder to be dropped
-into the radios SD card.
-
 ## To use
 
 1. Create/load a VSQ and export a WAV
