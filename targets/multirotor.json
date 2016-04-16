@@ -41,6 +41,8 @@
     "nolight.wav"   : "lights_off",
     "lighton.wav"   : "lights_on",
     "vidrec.wav"    : "video_recording_started",
-    "novrec.wav"    : "video_recording_stopped"
+    "novrec.wav"    : "video_recording_stopped",
+    "notrn.wav"     : "trainer_has_control",
+    "train.wav"     : "student_has_control"
   }
 }
