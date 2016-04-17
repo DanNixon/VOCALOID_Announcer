@@ -44,7 +44,10 @@
     "novrec.wav"    : "video_recording_stopped",
     "notrn.wav"     : "trainer_has_control",
     "train.wav"     : "student_has_control",
-    "LAPTIME/better.wav" : "lap_time_improved",
-    "LAPTIME/worse.wav"  : "lap_time_regressed"
+    "LAPTIME/better.wav"   : "lap_time_improved",
+    "LAPTIME/worse.wav"    : "lap_time_regressed",
+    "LAPTIME/lap.wav"      : "lap_done",
+    "LAPTIME/rsaved.wav"   : "race_saved",
+    "LAPTIME/rdiscard.wav" : "race_discarded"
   }
 }
