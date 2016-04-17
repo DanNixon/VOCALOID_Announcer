@@ -1,0 +1,16 @@
+{
+  "profile": "OpenTX Sound Pack Addon for Laptime telemetry script",
+  "directory": "./out/SOUNDS/en/LAPTIME/",
+  "audio_format": {
+    "channels": 1,
+    "sample_freq": 32000,
+    "gain": 22
+  },
+  "sounds": {
+    "better.wav"   : "lap_time_improved",
+    "worse.wav"    : "lap_time_regressed",
+    "lap.wav"      : "lap_done",
+    "rsaved.wav"   : "race_saved",
+    "rdiscard.wav" : "race_discarded"
+  }
+}
