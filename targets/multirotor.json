@@ -44,7 +44,6 @@
     "novrec.wav"    : "video_recording_stopped",
     "notrn.wav"     : "trainer_has_control",
     "train.wav"     : "student_has_control",
-    
     "bbrec.wav"     : "blackbox_recording",
     "bbdis.wav"     : "blackbox_disabled",
     "airm.wav"      : "air_mode",
@@ -59,7 +58,8 @@
     "fsafea.wav"    : "failsafe_active",
     "fsafed.wav"    : "failsafe_disabled",
     "mdlrdy.wav"    : "model_ready",
-    "mdlflt.wav"    : "model_fault_cannot_arm",
+    "mdlfna.wav"    : "model_fault_cannot_arm",
+    "mdlflt.wav"    : "model_fault",
     "gpsfxa.wav"    : "gps_fix_acquired",
     "gpsfxl.wav"    : "gps_fix_lost"
   }
