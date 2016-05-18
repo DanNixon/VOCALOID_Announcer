@@ -43,6 +43,24 @@
     "vidrec.wav"    : "video_recording_started",
     "novrec.wav"    : "video_recording_stopped",
     "notrn.wav"     : "trainer_has_control",
-    "train.wav"     : "student_has_control"
+    "train.wav"     : "student_has_control",
+    
+    "bbrec.wav"     : "blackbox_recording",
+    "bbdis.wav"     : "blackbox_disabled",
+    "airm.wav"      : "air_mode",
+    "airma.wav"     : "air_mode_active",
+    "airmd.wav"     : "air_mode_disabled",
+    "alth.wav"      : "altitude_hold",
+    "altf.wav"      : "altitude_free",
+    "hdgh.wav"      : "heading_hold",
+    "hdgf.wav"      : "heading_free",
+    "gtunea.wav"    : "g_tune_active",
+    "gtuned.wav"    : "g_tune_disabled",
+    "fsafea.wav"    : "failsafe_active",
+    "fsafed.wav"    : "failsafe_disabled",
+    "mdlrdy.wav"    : "model_ready",
+    "mdlflt.wav"    : "model_fault_cannot_arm",
+    "gpsfxa.wav"    : "gps_fix_acquired",
+    "gpsfxl.wav"    : "gps_fix_lost"
   }
 }
