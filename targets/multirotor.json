@@ -61,6 +61,8 @@
     "mdlfna.wav"    : "model_fault_cannot_arm",
     "mdlflt.wav"    : "model_fault",
     "gpsfxa.wav"    : "gps_fix_acquired",
-    "gpsfxl.wav"    : "gps_fix_lost"
+    "gpsfxl.wav"    : "gps_fix_lost",
+    "celvl.wav"     : "cell_voltage_low",
+    "celvc.wav"     : "cell_voltage_critical"
   }
 }
