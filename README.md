@@ -1,6 +1,6 @@
 # VOCALOID Announcer
 
-Tool for creating announcment sound files from VSQ files and an exported audio
+Tool for creating announcement sound files from VSQ files and an exported audio
 track.
 
 ## To use
@@ -19,8 +19,3 @@ track.
 - Ideally there should be either a quarter note or eighth node spacing between
   the start of a region and the first node and between the end of one region and
   the start of the next
-
-## Requirements
-
-- [Pydub](https://github.com/jiaaro/pydub)
-- [xmltodict](https://github.com/martinblech/xmltodict)
