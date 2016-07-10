@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-
-import argparse
 import logging
 import json
 import os
@@ -11,70 +8,15 @@ from pydub import AudioSegment
 LOG = logging.getLogger(__name__)
 
 
-def parse_cli():
-    """
-    Parses command line options.
-    @return Parsed options
-    """
-
-    parser = argparse.ArgumentParser(
-            description='File converter for VOCALOID OpenTX voice banks')
-
-    parser.add_argument(
-        '--log-level',
-        action='store',
-        default='INFO',
-        help='Logging level [DEBUG,INFO,WARNING,ERROR,CRITICAL]'
-    )
-
-    parser.add_argument(
-        '-s', '--sound-file',
-        action='append',
-        type=str,
-        help='Input sound definition file'
-    )
-
-    subparsers = parser.add_subparsers(help='operation to be performed')
-
-    # List sounds mode
-    list_parser = subparsers.add_parser('list')
-    list_parser.set_defaults(mode='list')
-
-    # Convert mode
-    convert_parser = subparsers.add_parser('convert')
-    convert_parser.set_defaults(mode='convert')
-
-    convert_parser.add_argument(
-        '-o', '--output',
-        action='append',
-        type=str,
-        help='Output configuration file'
-    )
-
-    props = parser.parse_args()
-
-    log_level = getattr(logging, props.log_level.upper(), None)
-    if not isinstance(log_level, int):
-        log_level = logging.INFO
-
-    logging.basicConfig(level=log_level,
-                        format='%(levelname)s: %(message)s')
-
-    return props
-
-
-def read_json_file(filename):
+def read_json_file(in_file):
     """
     Reads a JSON input/output configuration file.
-    @param filename Path to file to read
+    @param in_file File to read
     @return Tuple (file base name, data)
     """
 
-    LOG.info('Reading JSON file %s', filename)
-    with open(filename, 'r') as ifp:
-        data = json.load(ifp)
-
-    name = os.path.splitext(os.path.basename(filename))[0]
+    data = json.load(in_file)
+    name = os.path.splitext(os.path.basename(in_file.name))[0]
     return (name, data)
 
 
@@ -104,7 +46,8 @@ def read_vsq_file(data):
     data['vsq_voice_track'] = vsq_data['vsq4']['vsTrack']
 
     # Cache the start timestamp of the first part
-    data['vsq_master_track']['_tick_start'] = int(vsq_data['vsq4']['vsTrack']['vsPart'][0]['t'])
+    data['vsq_master_track']['_tick_start'] = int(
+        vsq_data['vsq4']['vsTrack']['vsPart'][0]['t'])
 
 
 def get_soundfile_config(sound_name, sound_files):
@@ -188,29 +131,3 @@ def slice_audio(sound_config, audio_config, filename):
     sound_segment = sound_segment.set_channels(audio_config['channels'])
     sound_segment = sound_segment.set_frame_rate(audio_config['sample_freq'])
     sound_segment.export(filename, format='wav')
-
-
-if __name__ == '__main__':
-    props = parse_cli();
-
-    # Read sound files
-    sound_files = {}
-    for f in props.sound_file:
-        name, data = read_json_file(f)
-        make_json_paths_absolute(data, f)
-        read_vsq_file(data)
-        sound_files[name] = data
-
-    # List all input sounds
-    if props.mode == 'list':
-        for name, data in sound_files.items():
-            print('Sound pack: {0}'.format(name))
-            for sound in data['vsq_voice_track']['vsPart']:
-                print('\t- {0}'.format(sound['name']))
-
-    # Read and process targets
-    elif props.mode == 'convert':
-        for f in props.output:
-            data = read_json_file(f)[1]
-            process_target(data, sound_files)
-

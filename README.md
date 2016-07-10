@@ -8,7 +8,7 @@ track.
 1. Create/load a VSQ and export a WAV
 2. If creating a new VSQ, create a new source `.json` file
 3. Create a new target `.json` if required
-4. Run the `converter` script (run `./converter -h` for usage)
+4. Install and run the converter (see `vocaloid_announcer_conv -h` for usage)
 5. Use the sound files!
 
 ## VSQ file requirements
