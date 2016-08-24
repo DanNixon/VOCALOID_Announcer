@@ -4,10 +4,6 @@ python:
   - 2.7
   - 3.4
 
-before_install:
-  - pip install nose
-  - pip install coverage
-
 script:
   - cd converter
-  - nosetests -c ./nose.cfg
+  - python setup.py nosetests
