@@ -9,5 +9,5 @@ before_install:
   - pip install coverage
 
 script:
-  - cd conveter
+  - cd converter
   - nosetests -v --with-coverage
