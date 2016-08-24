@@ -1,8 +1,9 @@
 import unittest
 import vocaloid_announcer.parser as vap
 
-VALID_SOUND_STRINGS = ['aaa', 'aaa.bbb', 'aaa...bbb', 'aaa.bbb..ccc']
-INVALID_SOUND_STRINGS = ['', '.', 'aaa.', '.aaa', 'aaa.bbb.']
+VALID_SOUND_STRINGS = ['aaa', 'aaa.bbb', 'aaa...bbb',
+                       'aaa.bbb..ccc', '3', '30.3', 'thrity.3']
+INVALID_SOUND_STRINGS = ['', '.', 'aaa.', '.aaa', 'aaa.bbb.', '.3', '3.']
 
 
 class TargetSoundStringParserTest(unittest.TestCase):
@@ -33,6 +34,14 @@ class TargetSoundStringParserTest(unittest.TestCase):
         self.assertEqual(parts[0]._region_name, 'abc')
         self.assertEqual(parts[1]._measures, 3)
         self.assertEqual(parts[2]._region_name, 'xyz')
+
+    def test_parse_sound_with_2_sound_numerical(self):
+        sound_str = '30..4'
+        parts = vap.parse_target_sound_str(sound_str)
+        self.assertEqual(len(parts), 3)
+        self.assertEqual(parts[0]._region_name, '30')
+        self.assertEqual(parts[1]._measures, 2)
+        self.assertEqual(parts[2]._region_name, '4')
 
     def test_parse_sound_with_3_sound(self):
         sound_str = 'abc...xyz.qqq'
