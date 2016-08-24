@@ -12,7 +12,6 @@ class TargetSoundStringParserTest(unittest.TestCase):
     def test_validate_invalid_strings(self):
         strings = ['', '.', 'aaa.', '.aaa', 'aaa.bbb.']
         for vs in strings:
-            print vs
             self.assertFalse(vap.validate_target_sound_str(vs))
 
     def test_parse_sound_simple(self):
