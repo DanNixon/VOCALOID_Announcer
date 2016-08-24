@@ -1,4 +1,5 @@
 import re
+from six.moves import range
 from vocaloid_announcer.types import VSQRegion, Pause
 
 TARGET_SOUND_STR_VALIDATION_REGEX = r'\w+(?:\.+\w+)*$'
@@ -27,7 +28,7 @@ def parse_target_sound_str(sound_str):
 
     sound_components = []
 
-    for i in xrange(len(sound_parts)):
+    for i in range(len(sound_parts)):
         sound_components.append(sound_parts[i])
         if i < len(pause_parts):
             sound_components.append(pause_parts[i])

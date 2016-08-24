@@ -10,4 +10,4 @@ before_install:
 
 script:
   - cd converter
-  - nosetests -v --with-coverage
+  - nosetests -c ./nose.cfg
