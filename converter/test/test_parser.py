@@ -53,5 +53,6 @@ class TargetSoundStringParserTest(unittest.TestCase):
         self.assertEqual(parts[3]._measures, 1)
         self.assertEqual(parts[4]._region_name, 'qqq')
 
+
 if __name__ == '__main__':
     unittest.main()
