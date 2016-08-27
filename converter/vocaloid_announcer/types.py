@@ -1,3 +1,4 @@
+
 class Target(object):
     """
     Stores data and sounds for a single target configuration.
@@ -24,6 +25,8 @@ class TargetSound(object):
 
     def __init__(self, json_data):
         self._filename = json_data[0]
+
+        import vocaloid_announcer.parser as parser
         self._components = parser.parse_target_sound_str(json_data[1])
 
     def process(self):

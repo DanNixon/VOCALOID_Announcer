@@ -1,6 +1,5 @@
 import re
 from six.moves import range
-from vocaloid_announcer.types import VSQRegion, Pause
 
 TARGET_SOUND_STR_VALIDATION_REGEX = r'\w+(?:\.+\w+)*$'
 SOUND_MATCH_REGEX = r'(\w+)'
@@ -50,6 +49,7 @@ def parse_target_sound_str(sound_str):
         raise RuntimeError('Matched the incorrect number of sound names and pauses ({}, {})'.format(
             len(sound_name_matches), len(pause_matches)))
 
+    from vocaloid_announcer.types import VSQRegion, Pause
     sound_parts = [VSQRegion(s) for s in sound_name_matches]
     pause_parts = [Pause(s) for s in pause_matches]
 
