@@ -1,6 +1,6 @@
 import unittest
 import vocaloid_announcer.types as vat
-import test_parser
+import test.test_parser as test_parser
 
 
 class TargetSoundTest(unittest.TestCase):
