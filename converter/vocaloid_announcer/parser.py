@@ -1,5 +1,11 @@
 import re
+import os
+import logging
+import json
+import xmltodict
 from six.moves import range
+
+LOG = logging.getLogger(__name__)
 
 TARGET_SOUND_STR_VALIDATION_REGEX = r'\w+(?:\.+\w+)*$'
 SOUND_MATCH_REGEX = r'(\w+)'
@@ -16,6 +22,36 @@ def read_json_file(in_file):
     data = json.load(in_file)
     name = os.path.splitext(os.path.basename(in_file.name))[0]
     return (name, data)
+
+
+def make_json_paths_absolute(data, json_file):
+    """
+    Converts the paths in a sound config file to absolute paths.
+    @param data JSON data
+    @param json_file Path to JSON file
+    """
+
+    json_directory = os.path.abspath(os.path.dirname(json_file))
+    data['vsq_file'] = os.path.join(json_directory, data['vsq_file'])
+    data['audio_file'] = os.path.join(json_directory, data['audio_file'])
+
+
+def read_vsq_file(data):
+    """
+    Reads the VSQ(X) file and stores it along with the JSON.
+    @param data JSON data
+    """
+
+    LOG.info('Reading VSQ file %s', data['vsq_file'])
+    with open(data['vsq_file'], 'r') as ifp:
+        vsq_data = xmltodict.parse(ifp)
+
+    data['vsq_master_track'] = vsq_data['vsq4']['masterTrack']
+    data['vsq_voice_track'] = vsq_data['vsq4']['vsTrack']
+
+    # Cache the start timestamp of the first part
+    data['vsq_master_track']['_tick_start'] = int(
+        vsq_data['vsq4']['vsTrack']['vsPart'][0]['t'])
 
 
 def validate_target_sound_str(sound_str):

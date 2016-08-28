@@ -1,3 +1,7 @@
+import logging
+
+LOG = logging.getLogger(__name__)
+
 
 class Target(object):
     """
@@ -9,10 +13,29 @@ class Target(object):
 
     def __init__(self, json_data):
         for sound in json_data['sounds']:
-            self._sounds.append(TargetSound(sound))
+            try:
+                self._sounds.append(TargetSound(sound))
+            except RuntimeError as e:
+                LOG.error(e)
 
         self._metadata = json_data
         self._metadata.pop('sounds')
+
+    def process(self):
+        LOG.info('Processing target %s', self._metadata['profile'])
+
+        # Create output directory
+        out_directory = os.path.abspath(self._metadata['directory'])
+        if not os.path.exists(out_directory):
+            os.makedirs(out_directory)
+        LOG.info('Output directory: %s', out_directory)
+
+        # Create sounds
+        for s in self._sounds:
+            try:
+                s.process()
+            except RuntimeError as e:
+                LOG.error(e)
 
 
 class TargetSound(object):

@@ -1,6 +1,6 @@
 import click
 import logging
-import converter
+import parser
 
 
 class SoundFileData(object):
@@ -22,9 +22,9 @@ def cli(sound_data, log_level, sound_file):
     set_logging(log_level)
 
     for f in sound_file:
-        name, data = converter.read_json_file(f)
-        converter.make_json_paths_absolute(data, f.name)
-        converter.read_vsq_file(data)
+        name, data = parser.read_json_file(f)
+        parser.make_json_paths_absolute(data, f.name)
+        parser.read_vsq_file(data)
         sound_data.files[name] = data
 
 
