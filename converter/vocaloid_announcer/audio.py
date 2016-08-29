@@ -42,4 +42,3 @@ def slice_audio(sound_config, audio_config):
     sound_segment += audio_config['gain']
     sound_segment = sound_segment.set_channels(audio_config['channels'])
     sound_segment = sound_segment.set_frame_rate(audio_config['sample_freq'])
-    sound_segment.export(filename, format='wav')

@@ -1,4 +1,5 @@
 import logging
+import os
 
 LOG = logging.getLogger(__name__)
 
@@ -15,8 +16,8 @@ class Target(object):
         for sound in json_data['sounds']:
             try:
                 self._sounds.append(TargetSound(sound))
-            except RuntimeError as e:
-                LOG.error(e)
+            except RuntimeError as ex:
+                LOG.error(ex)
 
         self._metadata = json_data
         self._metadata.pop('sounds')
@@ -34,8 +35,8 @@ class Target(object):
         for s in self._sounds:
             try:
                 s.process()
-            except RuntimeError as e:
-                LOG.error(e)
+            except RuntimeError as ex:
+                LOG.error(ex)
 
 
 class TargetSound(object):
