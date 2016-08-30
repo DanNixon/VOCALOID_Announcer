@@ -1,5 +1,5 @@
-import audio
-import vsq_cache
+import vocaloid_announcer.audio as audio
+import vocaloid_announcer.vsq_cache as vsq
 import logging
 import os
 
@@ -85,7 +85,7 @@ class VSQRegion(SoundComponent):
         self._region_name = name
 
     def audio(self):
-        sound_data = vsq_cache.get_sound_data(self._region_name)
+        sound_data = vsq.get_sound_data(self._region_name)
         return audio.slice_audio(sound_data)
 
 
