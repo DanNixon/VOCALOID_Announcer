@@ -26,7 +26,28 @@ def _read_vsq_file(data):
 
 
 def read_sound_file(f):
+    """
+    Reads a VSQ file and adds it to the cache.
+    @param f File handle to read from
+    """
     name, data = parser.read_json_file(f)
     parser.make_json_paths_absolute(data, f.name)
     _read_vsq_file(data)
     SOUND_DATA[name] = data
+
+
+def get_sound_data(sound):
+    """
+    Searches for a retrieves the sound config for a given sound.
+    @param sound_name Name of the sound to find
+    @return Tuple (VSQ part, VSQ master track, audio filename)
+    """
+
+    for f_name, f_data in SOUND_DATA.items():
+        for part_data in f_data['vsq_voice_track']['vsPart']:
+            name = part_data['name']
+
+            if name == sound_name:
+                return (part_data, f_data['vsq_master_track'], f_data['audio_file'])
+
+    raise RuntimeError('Mo data found for sound {}'.format(sound))

@@ -1,3 +1,5 @@
+import audio
+import vsq_cache
 import logging
 import os
 
@@ -55,7 +57,7 @@ class TargetSound(object):
 
     def process(self):
         # TODO
-        raise NotImplementedError('TODO')
+        pass
 
 
 class SoundComponent(object):
@@ -83,8 +85,8 @@ class VSQRegion(SoundComponent):
         self._region_name = name
 
     def audio(self):
-        # TODO
-        raise NotImplementedError('TODO')
+        sound_data = vsq_cache.get_sound_data(self._region_name)
+        return audio.slice_audio(sound_data)
 
 
 class Pause(SoundComponent):

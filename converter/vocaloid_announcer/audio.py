@@ -28,10 +28,10 @@ def calculate_time(master_track, vocal_part):
 
 def slice_audio(sound_config, audio_config):
     """
-    Calculates the timing for a sound file and slices it..
+    Calculates the timing for a sound file and slices it.
     @param sound_config Configuration data for sound clip
     @param audio_config Configuration for the audio output
-    @return THe sliced audio segment
+    @return The sliced audio segment
     """
 
     start, end = calculate_time(sound_config[1], sound_config[0])
