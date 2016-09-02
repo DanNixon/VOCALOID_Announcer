@@ -34,8 +34,10 @@ def convert(output):
     Creates the voice bank for the specified output files.
     """
     for f in output:
-        # TODO
-        pass
+        data = parser.read_json_file(f)
+        parser.make_json_paths_absolute(data, f.name())
+        target = Target(data)
+        target.process()
 
 
 def set_logging(level):

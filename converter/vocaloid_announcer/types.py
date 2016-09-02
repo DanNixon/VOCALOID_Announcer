@@ -2,6 +2,7 @@ import vocaloid_announcer.audio as audio
 import vocaloid_announcer.vsq_cache as vsq
 import logging
 import os
+from pydub import AudioSegment
 
 LOG = logging.getLogger(__name__)
 
@@ -36,7 +37,7 @@ class Target(object):
         # Create sounds
         for s in self._sounds:
             try:
-                s.process()
+                s.process(self._metadata['audio_format'])
             except RuntimeError as ex:
                 LOG.error(ex)
 
@@ -55,9 +56,17 @@ class TargetSound(object):
         import vocaloid_announcer.parser as parser
         self._components = parser.parse_target_sound_str(json_data[1])
 
-    def process(self):
-        # TODO
-        pass
+    def process(self, audio_config):
+        sound = AudioSegment()
+
+        for component in self._components:
+            sound = sound + component.audio()
+
+        sound += audio_config['gain']
+        sound = sound.set_channels(audio_config['channels'])
+        sound = sound.set_frame_rate(audio_config['sample_freq'])
+
+        sound.export(self._filename, format='wav')
 
 
 class SoundComponent(object):
@@ -86,7 +95,9 @@ class VSQRegion(SoundComponent):
 
     def audio(self):
         sound_data = vsq.get_sound_data(self._region_name)
-        return audio.slice_audio(sound_data)
+        start, end = audio.calculate_time(sound_data[1], sound_data[0])
+        sound = AudioSegment.from_wav(sound_data[2])
+        return sound[start:end]
 
 
 class Pause(SoundComponent):
@@ -104,4 +115,4 @@ class Pause(SoundComponent):
 
     def audio(self):
         # TODO
-        raise NotImplementedError('TODO')
+        raise NotImplementedError()
