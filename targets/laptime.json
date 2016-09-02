@@ -7,10 +7,10 @@
     "gain": 22
   },
   "sounds": {
-    "better.wav"   : "lap_time_improved",
-    "worse.wav"    : "lap_time_regressed",
+    "better.wav"   : "lap_time..improved",
+    "worse.wav"    : "lap_time..regressed",
     "lap.wav"      : "lap_done",
-    "rsaved.wav"   : "race_saved",
-    "rdiscard.wav" : "race_discarded"
+    "rsaved.wav"   : "race..saved",
+    "rdiscard.wav" : "race..discarded"
   }
 }
