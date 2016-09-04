@@ -52,7 +52,7 @@ def list_targets(target_data):
     for data in target_data.data:
         target = Target(data)
         click.echo('{0}'.format(target))
-        for sound in target._sounds:
+        for sound in target.sounds:
             click.echo('\t- {0}'.format(sound))
 
 

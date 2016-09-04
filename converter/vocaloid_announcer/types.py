@@ -13,12 +13,12 @@ class Target(object):
     """
 
     _metadata = None
-    _sounds = []
+    sounds = []
 
     def __init__(self, json_data):
         for sound in json_data['sounds'].items():
             try:
-                self._sounds.append(TargetSound(sound))
+                self.sounds.append(TargetSound(sound))
             except RuntimeError as ex:
                 LOG.error(ex)
 
@@ -35,14 +35,14 @@ class Target(object):
         LOG.info('Output directory: %s', out_directory)
 
         # Create sounds
-        for s in self._sounds:
+        for s in self.sounds:
             try:
                 s.process(self._metadata['audio_format'])
             except RuntimeError as ex:
                 LOG.error(ex)
 
     def __str__(self):
-        return 'Target["{}", {} sound(s)]'.format(self._metadata['profile'], len(self._sounds))
+        return 'Target("{}", {} sound(s))'.format(self._metadata['profile'], len(self.sounds))
 
 
 class TargetSound(object):
@@ -72,7 +72,7 @@ class TargetSound(object):
         sound.export(self._filename, format='wav')
 
     def __str__(self):
-        return 'TargetSound["{}", ({})]'.format(self._filename, ','.join([str(c) for c in self._components]))
+        return 'TargetSound("{}", [{}])'.format(self._filename, ','.join([str(c) for c in self._components]))
 
 
 class SoundComponent(object):
@@ -85,7 +85,7 @@ class SoundComponent(object):
         Generates an audio segment for the component.
         @return Audio segment
         """
-        raise NotImplementedError('No audio conversion was implemented')
+        raise NotImplementedError('No audio generation was implemented')
 
 
 class VSQRegion(SoundComponent):
@@ -106,7 +106,7 @@ class VSQRegion(SoundComponent):
         return sound[start:end]
 
     def __str__(self):
-        return 'VSQRegion["{}"]'.format(self._region_name)
+        return 'VSQRegion("{}")'.format(self._region_name)
 
 
 class Pause(SoundComponent):
@@ -127,4 +127,4 @@ class Pause(SoundComponent):
         raise NotImplementedError()
 
     def __str__(self):
-        return 'Pause[{} measure(s)]'.format(self._measures)
+        return 'Pause({} measure(s))'.format(self._measures)
