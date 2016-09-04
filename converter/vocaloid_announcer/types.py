@@ -16,7 +16,7 @@ class Target(object):
     _sounds = []
 
     def __init__(self, json_data):
-        for sound in json_data['sounds']:
+        for sound in json_data['sounds'].items():
             try:
                 self._sounds.append(TargetSound(sound))
             except RuntimeError as ex:
@@ -40,6 +40,9 @@ class Target(object):
                 s.process(self._metadata['audio_format'])
             except RuntimeError as ex:
                 LOG.error(ex)
+
+    def __str__(self):
+        return 'Target["{}", {} sound(s)]'.format(self._metadata['profile'], len(self._sounds))
 
 
 class TargetSound(object):
@@ -67,6 +70,9 @@ class TargetSound(object):
         sound = sound.set_frame_rate(audio_config['sample_freq'])
 
         sound.export(self._filename, format='wav')
+
+    def __str__(self):
+        return 'TargetSound["{}", ({})]'.format(self._filename, ','.join([str(c) for c in self._components]))
 
 
 class SoundComponent(object):
@@ -99,6 +105,9 @@ class VSQRegion(SoundComponent):
         sound = AudioSegment.from_wav(sound_data[2])
         return sound[start:end]
 
+    def __str__(self):
+        return 'VSQRegion["{}"]'.format(self._region_name)
+
 
 class Pause(SoundComponent):
     """
@@ -116,3 +125,6 @@ class Pause(SoundComponent):
     def audio(self):
         # TODO
         raise NotImplementedError()
+
+    def __str__(self):
+        return 'Pause[{} measure(s)]'.format(self._measures)

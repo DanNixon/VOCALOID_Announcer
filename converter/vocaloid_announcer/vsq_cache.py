@@ -13,7 +13,7 @@ def _read_vsq_file(data):
     @param data JSON data
     """
 
-    LOG.info('Reading VSQ file %s', data['vsq_file'])
+    LOG.debug('Reading VSQ file %s', data['vsq_file'])
     with open(data['vsq_file'], 'r') as ifp:
         vsq_data = xmltodict.parse(ifp)
 

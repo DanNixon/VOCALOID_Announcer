@@ -1,12 +1,24 @@
 import click
 import logging
-import vsq_cache as vsq
+import vocaloid_announcer.vsq_cache as vsq
+import vocaloid_announcer.parser as parser
+from vocaloid_announcer.types import Target
+
+
+class TargetData(object):
+
+    def __init__(self):
+        self.data = list()
+
+pass_target_data = click.make_pass_decorator(TargetData, ensure=True)
 
 
 @click.group()
 @click.option('--log-level', default='INFO', help='Logging level [DEBUG,INFO,WARNING,ERROR,CRITICAL]')
 @click.option('-s', '--sound-file', multiple=True, type=click.File('r'), help='Input sound definition files')
-def cli(log_level, sound_file):
+@click.option('-t', '--target-file', multiple=True, type=click.File('r'), help='Output target definition files')
+@pass_target_data
+def cli(target_data, log_level, sound_file, target_file):
     """
     File converter for VOCALOID announcer voice banks.
     """
@@ -15,9 +27,13 @@ def cli(log_level, sound_file):
     for f in sound_file:
         vsq.read_sound_file(f)
 
+    for f in target_file:
+        data = parser.read_json_file(f)[1]
+        target_data.data.append(data)
+
 
 @cli.command()
-def list():
+def list_sources():
     """
     List the sounds available in each input file.
     """
@@ -28,14 +44,25 @@ def list():
 
 
 @cli.command()
-@click.argument('output', nargs=-1, type=click.File('r'))
-def convert(output):
+@pass_target_data
+def list_targets(target_data):
+    """
+    List the sounds defined in each target.
+    """
+    for data in target_data.data:
+        target = Target(data)
+        click.echo('{0}'.format(target))
+        for sound in target._sounds:
+            click.echo('\t- {0}'.format(sound))
+
+
+@cli.command()
+@pass_target_data
+def convert(target_data):
     """
     Creates the voice bank for the specified output files.
     """
-    for f in output:
-        data = parser.read_json_file(f)
-        parser.make_json_paths_absolute(data, f.name())
+    for data in target_data.dat.data:
         target = Target(data)
         target.process()
 

@@ -25,7 +25,7 @@ def read_json_file(in_file):
 
 def make_json_paths_absolute(data, json_file):
     """
-    Converts the paths in a sound config file to absolute paths.
+    Converts the paths in a source sound config file to absolute paths.
     @param data JSON data
     @param json_file Path to JSON file
     """
