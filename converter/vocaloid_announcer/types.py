@@ -73,7 +73,7 @@ class Target(object):
         # Create sounds
         for s in self.sounds:
             try:
-                s.process(self._metadata['audio_format'])
+                s.process(out_directory, self._metadata['audio_format'])
             except RuntimeError as ex:
                 LOG.error(ex)
 
@@ -106,8 +106,8 @@ class TargetSound(object):
                 if len(region) == 1:
                     self._components[i] = region[0]
 
-    def process(self, audio_config):
-        sound = AudioSegment()
+    def process(self, directory, audio_config):
+        sound = AudioSegment.empty()
 
         for component in self._components:
             sound = sound + component.audio()
@@ -116,7 +116,8 @@ class TargetSound(object):
         sound = sound.set_channels(audio_config['channels'])
         sound = sound.set_frame_rate(audio_config['sample_freq'])
 
-        sound.export(self._filename, format='wav')
+        filename = os.path.join(directory, self._filename)
+        sound.export(filename, format='wav')
 
     def required_vsq_regions(self):
         return [i.name for i in self._components if isinstance(i, AbstractVSQRegion)]

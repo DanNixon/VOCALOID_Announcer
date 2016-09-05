@@ -2,6 +2,8 @@ import logging
 import xmltodict
 import parser
 from vocaloid_announcer.types import AbstractVSQRegion
+from vocaloid_announcer.audio import calculate_time
+from pydub import AudioSegment
 
 LOG = logging.getLogger(__name__)
 
@@ -85,8 +87,7 @@ class VSQRegion(AbstractVSQRegion):
         LOG.debug('New VSQRegion, name=%s', self.name)
 
     def audio(self):
-        sound_data = vsq.get_sound_data(self.region_name)
-        start, end = audio.calculate_time(self.parent.master_track, self.data)
+        start, end = calculate_time(self.parent.master_track, self.data, self.parent.tick_start)
         sound = AudioSegment.from_wav(self.parent.wav_filename)
         return sound[start:end]
 

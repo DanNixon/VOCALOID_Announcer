@@ -3,10 +3,11 @@ import logging
 LOG = logging.getLogger(__name__)
 
 
-def calculate_time(master_track, vocal_part):
+def calculate_time(master_track, vocal_part, tick_start):
     """
     @param master_track
     @param vocal_part
+    @param tick_start
     """
 
     bpm = int(master_track['tempo'][-1]['v']) / 100.0
@@ -14,7 +15,7 @@ def calculate_time(master_track, vocal_part):
     ms_per_tick = 60000.0 / (bpm * bpq)
     LOG.debug('Milliseconds per MIDI tick %f', ms_per_tick)
 
-    start_ticks = int(vocal_part['t']) - master_track['_tick_start']
+    start_ticks = int(vocal_part['t']) - tick_start
     end_ticks = start_ticks + int(vocal_part['playTime'])
 
     start_time_ms = ms_per_tick * start_ticks
