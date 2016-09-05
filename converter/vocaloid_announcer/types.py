@@ -1,10 +1,42 @@
 import vocaloid_announcer.audio as audio
-import vocaloid_announcer.vsq_cache as vsq
+import vocaloid_announcer.parser as parser
 import logging
 import os
 from pydub import AudioSegment
 
 LOG = logging.getLogger(__name__)
+
+
+def _vsq_regions(container, region_type):
+    regions = set()
+    for sound in container:
+        regions.update(getattr(sound, '{0}_vsq_regions'.format(region_type))())
+    return regions
+
+
+class TargetGroup(object):
+
+    def __init__(self):
+        self.targets = list()
+
+    def populate(self, files):
+        for f in files:
+            data = parser.read_json_file(f)[1]
+            self.targets.append(Target(data))
+
+    def populate_vsq(self, vsq):
+        for targets in self.targets:
+            targets.populate_vsq(vsq)
+
+    def process(self):
+        for targets in self.targets:
+            targets.process()
+
+    def required_vsq_regions(self):
+        return _vsq_regions(self.targets, 'required')
+
+    def missing_vsq_regions(self):
+        return _vsq_regions(self.targets, 'missing')
 
 
 class Target(object):
@@ -25,6 +57,10 @@ class Target(object):
         self._metadata = json_data
         self._metadata.pop('sounds')
 
+    def populate_vsq(self, vsq):
+        for sound in self.sounds:
+            sound.populate_vsq(vsq)
+
     def process(self):
         LOG.info('Processing target %s', self._metadata['profile'])
 
@@ -41,6 +77,12 @@ class Target(object):
             except RuntimeError as ex:
                 LOG.error(ex)
 
+    def required_vsq_regions(self):
+        return _vsq_regions(self.sounds, 'required')
+
+    def missing_vsq_regions(self):
+        return _vsq_regions(self.sounds, 'missing')
+
     def __str__(self):
         return 'Target("{}", {} sound(s))'.format(self._metadata['profile'], len(self.sounds))
 
@@ -55,9 +97,14 @@ class TargetSound(object):
 
     def __init__(self, json_data):
         self._filename = json_data[0]
-
-        import vocaloid_announcer.parser as parser
         self._components = parser.parse_target_sound_str(json_data[1])
+
+    def populate_vsq(self, vsq):
+        for i, component in enumerate(self._components):
+            if isinstance(component, MissingVSQRegion):
+                region = vsq.find(component.name)
+                if len(region) == 1:
+                    self._components[i] = region[0]
 
     def process(self, audio_config):
         sound = AudioSegment()
@@ -70,6 +117,12 @@ class TargetSound(object):
         sound = sound.set_frame_rate(audio_config['sample_freq'])
 
         sound.export(self._filename, format='wav')
+
+    def required_vsq_regions(self):
+        return [i.name for i in self._components if isinstance(i, AbstractVSQRegion)]
+
+    def missing_vsq_regions(self):
+        return [i.name for i in self._components if isinstance(i, MissingVSQRegion)]
 
     def __str__(self):
         return 'TargetSound("{}", [{}])'.format(self._filename, ','.join([str(c) for c in self._components]))
@@ -88,25 +141,19 @@ class SoundComponent(object):
         raise NotImplementedError('No audio generation was implemented')
 
 
-class VSQRegion(SoundComponent):
-    """
-    Class representing a sound component extracted from a region of a VSQ file.
-    """
+class AbstractVSQRegion(SoundComponent):
 
-    _region_name = ''
+    name = ''
+
+
+class MissingVSQRegion(AbstractVSQRegion):
 
     def __init__(self, name):
-        super(SoundComponent, self).__init__()
-        self._region_name = name
-
-    def audio(self):
-        sound_data = vsq.get_sound_data(self._region_name)
-        start, end = audio.calculate_time(sound_data[1], sound_data[0])
-        sound = AudioSegment.from_wav(sound_data[2])
-        return sound[start:end]
+        super(AbstractVSQRegion, self).__init__()
+        self.name = name
 
     def __str__(self):
-        return 'VSQRegion("{}")'.format(self._region_name)
+        return 'MissingVSQRegion("{0}")'.format(self.name)
 
 
 class Pause(SoundComponent):
@@ -114,17 +161,17 @@ class Pause(SoundComponent):
     Class representing a pause of a given number of measures.
     """
 
-    _measures = 0
+    measures = 0
 
     def __init__(self, measures):
         super(SoundComponent, self).__init__()
         if type(measures) is str:
             measures = len(measures)
-        self._measures = measures
+        self.measures = measures
 
     def audio(self):
         # TODO
         raise NotImplementedError()
 
     def __str__(self):
-        return 'Pause({} measure(s))'.format(self._measures)
+        return 'Pause({0} measure(s))'.format(self.measures)
