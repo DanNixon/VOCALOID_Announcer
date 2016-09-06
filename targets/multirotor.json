@@ -7,7 +7,7 @@
     "gain": 22
   },
   "sounds": {
-    "angle.wav"     : "angle_mode",
+    "test.wav"      : "angle_mode.acro_mode",
     "acro.wav"      : "acro_mode",
     "horiz.wav"     : "horizon_mode",
     "hfree.wav"     : "headfree_mode",

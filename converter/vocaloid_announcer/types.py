@@ -109,8 +109,8 @@ class TargetSound(object):
     def process(self, directory, audio_config):
         sound = AudioSegment.empty()
 
-        for component in self._components:
-            sound = sound + component.audio()
+        for i, component in enumerate(self._components):
+            sound += component.audio()
 
         sound += audio_config['gain']
         sound = sound.set_channels(audio_config['channels'])
@@ -134,7 +134,7 @@ class SoundComponent(object):
     Base class for components of a target sound.
     """
 
-    def audio(self):
+    def audio(self, **args):
         """
         Generates an audio segment for the component.
         @return Audio segment
@@ -145,6 +145,9 @@ class SoundComponent(object):
 class AbstractVSQRegion(SoundComponent):
 
     name = ''
+
+    def audio(self, **args):
+        raise RuntimeError('Missing VSQ region "{}"'.format(self.name))
 
 
 class MissingVSQRegion(AbstractVSQRegion):
@@ -166,13 +169,15 @@ class Pause(SoundComponent):
 
     def __init__(self, measures):
         super(SoundComponent, self).__init__()
-        if type(measures) is str:
+        if type(measures) is str or unicode:
             measures = len(measures)
         self.measures = measures
 
-    def audio(self):
-        # TODO
-        raise NotImplementedError()
+    def audio(self, **args):
+        quarter_notes = (4 / int(args.get('pause_note', 4))) * self.measures
+        time_ms = quarter_notes * int(args.get('resolution', 480))
+        LOG.debug('Pause delay %fms', time_ms)
+        return AudioSegment.silent(duration=time_ms)
 
     def __str__(self):
         return 'Pause({0} measure(s))'.format(self.measures)
