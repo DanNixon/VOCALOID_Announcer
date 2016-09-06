@@ -73,7 +73,7 @@ class Target(object):
         # Create sounds
         for s in self.sounds:
             try:
-                s.process(out_directory, self._metadata['audio_format'])
+                s.process(out_directory, self._metadata['audio_format'], self._metadata.get('pause_note', 4))
             except RuntimeError as ex:
                 LOG.error(ex)
 
@@ -106,11 +106,16 @@ class TargetSound(object):
                 if len(region) == 1:
                     self._components[i] = region[0]
 
-    def process(self, directory, audio_config):
+    def process(self, directory, audio_config, pause_note):
         sound = AudioSegment.empty()
 
         for i, component in enumerate(self._components):
-            sound += component.audio()
+            if i % 2 == 0:
+                sound += component.audio()
+            else:
+                resolution = max(self._components[i-1].resolution(), self._components[i+1].resolution())
+                LOG.debug('Pause resolution: %f', resolution)
+                sound += component.audio(pause_note=pause_note, resolution=resolution)
 
         sound += audio_config['gain']
         sound = sound.set_channels(audio_config['channels'])
@@ -174,7 +179,7 @@ class Pause(SoundComponent):
         self.measures = measures
 
     def audio(self, **args):
-        quarter_notes = (4 / int(args.get('pause_note', 4))) * self.measures
+        quarter_notes = (4.0 / float(args.get('pause_note', 4))) * self.measures
         time_ms = quarter_notes * int(args.get('resolution', 480))
         LOG.debug('Pause delay %fms', time_ms)
         return AudioSegment.silent(duration=time_ms)

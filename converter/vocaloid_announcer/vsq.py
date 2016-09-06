@@ -106,5 +106,8 @@ class VSQRegion(AbstractVSQRegion):
         sound = AudioSegment.from_wav(self.parent.wav_filename)
         return sound[start_time_ms:end_time_ms]
 
+    def resolution(self):
+        return int(self.parent.master_track['resolution'])
+
     def __str__(self):
         return 'VSQRegion("{}")'.format(self.name)
