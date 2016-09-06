@@ -6,6 +6,7 @@
     "sample_freq": 32000,
     "gain": 22
   },
+  "pause_note": 32,
   "sounds": {
     "better.wav"   : "lap_time_improved",
     "worse.wav"    : "lap_time_regressed",

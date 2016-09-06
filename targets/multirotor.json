@@ -6,7 +6,9 @@
     "sample_freq": 32000,
     "gain": 22
   },
+  "pause_note": 32,
   "sounds": {
+    "test.wav"      : "angle_mode.acro_mode",
     "angle.wav"     : "angle_mode",
     "acro.wav"      : "acro_mode",
     "horiz.wav"     : "horizon_mode",

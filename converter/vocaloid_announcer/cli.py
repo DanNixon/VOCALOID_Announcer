@@ -1,55 +1,95 @@
 import click
 import logging
-import converter
+from vocaloid_announcer.types import TargetGroup
+from vocaloid_announcer.vsq import VSQFileGroup
 
 
-class SoundFileData(object):
+INDENT = '  - '
+
+
+class CLIData(object):
 
     def __init__(self):
-        self.files = dict()
+        self.vsq = VSQFileGroup()
+        self.target = TargetGroup()
 
-pass_sound_data = click.make_pass_decorator(SoundFileData, ensure=True)
+    def populate_vsq(self):
+        self.target.populate_vsq(self.vsq)
+
+
+pass_cli_data = click.make_pass_decorator(CLIData, ensure=True)
 
 
 @click.group()
 @click.option('--log-level', default='INFO', help='Logging level [DEBUG,INFO,WARNING,ERROR,CRITICAL]')
 @click.option('-s', '--sound-file', multiple=True, type=click.File('r'), help='Input sound definition files')
-@pass_sound_data
-def cli(sound_data, log_level, sound_file):
+@click.option('-t', '--target-file', multiple=True, type=click.File('r'), help='Output target definition files')
+@pass_cli_data
+def cli(cli_data, log_level, sound_file, target_file):
     """
     File converter for VOCALOID announcer voice banks.
     """
     set_logging(log_level)
 
     for f in sound_file:
-        name, data = converter.read_json_file(f)
-        converter.make_json_paths_absolute(data, f.name)
-        converter.read_vsq_file(data)
-        sound_data.files[name] = data
+        cli_data.vsq.load_file(f)
+
+    cli_data.target.populate(target_file)
 
 
 @cli.command()
-@pass_sound_data
-def list(sound_data):
+@pass_cli_data
+def list_regions(cli_data):
     """
-    List the sounds available in each input file.
+    List the regions available in each input VSQ file.
     """
-    for name, data in sound_data.files.items():
-        click.echo('Sound pack: {0}'.format(name))
-        for sound in data['vsq_voice_track']['vsPart']:
-            click.echo('\t- {0}'.format(sound['name']))
+    for f in cli_data.vsq.files:
+        click.echo('{0}'.format(f))
+        for r in f.regions:
+            click.echo('{0}{1}'.format(INDENT, r))
 
 
 @cli.command()
-@click.argument('output', nargs=-1, type=click.File('r'))
-@pass_sound_data
-def convert(sound_data, output):
+@pass_cli_data
+def list_targets(cli_data):
+    """
+    List the sounds defined in each target.
+    """
+    for target in cli_data.target.targets:
+        click.echo('{0}'.format(target))
+        for sound in target.sounds:
+            click.echo('{0}{1}'.format(INDENT, sound))
+
+
+@cli.command()
+@pass_cli_data
+def list_required_regions(cli_data):
+    """
+    List the source sounds required to fully generate a target.
+    """
+    for region in cli_data.target.required_vsq_regions():
+        click.echo('{0}'.format(region))
+
+
+@cli.command()
+@pass_cli_data
+def list_missing_regions(cli_data):
+    """
+    List missing source sounds required to fully generate a target.
+    """
+    cli_data.populate_vsq()
+    for region in cli_data.target.missing_vsq_regions():
+        click.echo('{0}'.format(region))
+
+
+@cli.command()
+@pass_cli_data
+def convert(cli_data):
     """
     Creates the voice bank for the specified output files.
     """
-    for f in output:
-        data = converter.read_json_file(f)[1]
-        converter.process_target(data, sound_data.files)
+    cli_data.populate_vsq()
+    cli_data.target.process()
 
 
 def set_logging(level):

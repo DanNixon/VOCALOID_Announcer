@@ -1,5 +1,7 @@
 # VOCALOID Announcer
 
+[![Build Status](https://travis-ci.org/DanNixon/VOCALOID_Announcer.svg)](https://travis-ci.org/DanNixon/VOCALOID_Announcer)
+
 Tool for creating announcement sound files from VSQ files and an exported audio
 track.
 
