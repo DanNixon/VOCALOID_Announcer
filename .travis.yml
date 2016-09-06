@@ -9,9 +9,9 @@ install:
 
 script:
   - cd converter && python setup.py nosetests
-  - vocaloid_announcer_conv \
-    -s source\sources.json \
-    -t targets\laptime.json \
-    -t targets\multirotor.json \
-    -t targets\opentx_system.json \
+  - vocaloid_announcer_conv
+    -s source\sources.json
+    -t targets\laptime.json
+    -t targets\multirotor.json
+    -t targets\opentx_system.json
     list_missing_regions
