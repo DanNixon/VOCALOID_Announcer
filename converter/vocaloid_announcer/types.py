@@ -1,4 +1,3 @@
-import vocaloid_announcer.audio as audio
 import vocaloid_announcer.parser as parser
 import logging
 import os
