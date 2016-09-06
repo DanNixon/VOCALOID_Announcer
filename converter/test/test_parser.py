@@ -25,33 +25,33 @@ class TargetSoundStringParserTest(unittest.TestCase):
         sound_str = 'abc'
         parts = vap.parse_target_sound_str(sound_str)
         self.assertEqual(len(parts), 1)
-        self.assertEqual(parts[0]._region_name, 'abc')
+        self.assertEqual(parts[0].name, 'abc')
 
     def test_parse_sound_with_2_sound(self):
         sound_str = 'abc...xyz'
         parts = vap.parse_target_sound_str(sound_str)
         self.assertEqual(len(parts), 3)
-        self.assertEqual(parts[0]._region_name, 'abc')
-        self.assertEqual(parts[1]._measures, 3)
-        self.assertEqual(parts[2]._region_name, 'xyz')
+        self.assertEqual(parts[0].name, 'abc')
+        self.assertEqual(parts[1].measures, 3)
+        self.assertEqual(parts[2].name, 'xyz')
 
     def test_parse_sound_with_2_sound_numerical(self):
         sound_str = '30..4'
         parts = vap.parse_target_sound_str(sound_str)
         self.assertEqual(len(parts), 3)
-        self.assertEqual(parts[0]._region_name, '30')
-        self.assertEqual(parts[1]._measures, 2)
-        self.assertEqual(parts[2]._region_name, '4')
+        self.assertEqual(parts[0].name, '30')
+        self.assertEqual(parts[1].measures, 2)
+        self.assertEqual(parts[2].name, '4')
 
     def test_parse_sound_with_3_sound(self):
         sound_str = 'abc...xyz.qqq'
         parts = vap.parse_target_sound_str(sound_str)
         self.assertEqual(len(parts), 5)
-        self.assertEqual(parts[0]._region_name, 'abc')
-        self.assertEqual(parts[1]._measures, 3)
-        self.assertEqual(parts[2]._region_name, 'xyz')
-        self.assertEqual(parts[3]._measures, 1)
-        self.assertEqual(parts[4]._region_name, 'qqq')
+        self.assertEqual(parts[0].name, 'abc')
+        self.assertEqual(parts[1].measures, 3)
+        self.assertEqual(parts[2].name, 'xyz')
+        self.assertEqual(parts[3].measures, 1)
+        self.assertEqual(parts[4].name, 'qqq')
 
 
 if __name__ == '__main__':

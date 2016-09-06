@@ -6,6 +6,7 @@
     "sample_freq": 32000,
     "gain": 22
   },
+  "pause_note": 32,
   "sounds": {
     "angle.wav"     : "angle.mode",
     "acro.wav"      : "acro.mode",

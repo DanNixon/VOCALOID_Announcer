@@ -26,7 +26,7 @@ class TargetTest(unittest.TestCase):
 
         self.assertEqual(t._metadata['profile'], u'profile name goes here')
         self.assertEqual(len(t._metadata['audio_format']), 3)
-        self.assertEqual(len(t._sounds), 5)
+        self.assertEqual(len(t.sounds), 5)
 
 
 if __name__ == '__main__':

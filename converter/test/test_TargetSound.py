@@ -15,11 +15,11 @@ class TargetSoundTest(unittest.TestCase):
         ts = vat.TargetSound(data)
         parts = ts._components
         self.assertEqual(len(parts), 5)
-        self.assertEqual(parts[0]._region_name, 'abc')
-        self.assertEqual(parts[1]._measures, 3)
-        self.assertEqual(parts[2]._region_name, 'xyz')
-        self.assertEqual(parts[3]._measures, 1)
-        self.assertEqual(parts[4]._region_name, 'qqq')
+        self.assertEqual(parts[0].name, 'abc')
+        self.assertEqual(parts[1].measures, 3)
+        self.assertEqual(parts[2].name, 'xyz')
+        self.assertEqual(parts[3].measures, 1)
+        self.assertEqual(parts[4].name, 'qqq')
 
 
 if __name__ == '__main__':

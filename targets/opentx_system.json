@@ -6,6 +6,7 @@
     "sample_freq": 32000,
     "gain": 22
   },
+  "pause_note": 32,
   "sounds": {
     "0000.wav"        : "0",
     "0001.wav"        : "1",

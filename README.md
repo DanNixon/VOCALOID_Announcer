@@ -1,5 +1,7 @@
 # VOCALOID Announcer
 
+[![Build Status](https://travis-ci.org/DanNixon/VOCALOID_Announcer.svg)](https://travis-ci.org/DanNixon/VOCALOID_Announcer)
+
 Tool for creating announcement sound files from VSQ files and an exported audio
 track.
 
@@ -16,6 +18,6 @@ track.
 - The start of the audio file must align with the start of first part/region in
   the VSQ
 - The entire file should be a constant tempo
-- Ideally there should be either a quarter note or eighth node spacing between
-  the start of a region and the first node and between the end of one region and
+- Ideally there should be either a quarter note or eighth note spacing between
+  the start of a region and the first note and between the end of one region and
   the start of the next
