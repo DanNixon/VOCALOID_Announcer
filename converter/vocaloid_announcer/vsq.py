@@ -14,8 +14,13 @@ class VSQFileGroup(object):
     def __init__(self):
         self.files = list()
 
-    def load_file(self, data_file):
-        self.files.append(VSQFile(data_file))
+    def populate(self, files):
+        for f in files:
+            file_data = parser.read_json_file(f)[1]
+            parser.make_json_paths_absolute(file_data, f.name)
+
+            for name, data in file_data.iteritems():
+                self.files.append(VSQFile(name, data))
 
     def find(self, name):
         LOG.debug('VSQFileGroup: Finding VSQRegion for name "%s"', name)
@@ -42,10 +47,10 @@ class VSQFile(object):
     regions = None
     ms_per_tick = 0
 
-    def __init__(self, data_file):
-        self.name, data = parser.read_json_file(data_file)
-        parser.make_json_paths_absolute(data, data_file.name)
+    def __init__(self, name, data):
+        LOG.debug('Loading new VSQFile, name="%s"', name)
 
+        self.name = name
         self.wav_filename = data['audio_file']
 
         # Load VSQ tracks

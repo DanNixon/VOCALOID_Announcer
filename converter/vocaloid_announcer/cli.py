@@ -8,12 +8,18 @@ INDENT = '  - '
 
 
 class CLIData(object):
+    """
+    Helper class to store data to be passed between CLI commands.
+    """
 
     def __init__(self):
         self.vsq = VSQFileGroup()
         self.target = TargetGroup()
 
     def populate_vsq(self):
+        """
+        Uses the cached VSQ files to populate the cached target group.
+        """
         self.target.populate_vsq(self.vsq)
 
 
@@ -31,9 +37,7 @@ def cli(cli_data, log_level, sound_file, target_file):
     """
     set_logging(log_level)
 
-    for f in sound_file:
-        cli_data.vsq.load_file(f)
-
+    cli_data.vsq.populate(sound_file)
     cli_data.target.populate(target_file)
 
 
@@ -78,8 +82,13 @@ def list_missing_regions(cli_data):
     List missing source sounds required to fully generate a target.
     """
     cli_data.populate_vsq()
-    for region in cli_data.target.missing_vsq_regions():
+
+    missing = cli_data.target.missing_vsq_regions()
+    for region in missing:
         click.echo('{0}'.format(region))
+
+    if len(missing) > 0:
+        click.get_current_context().exit(1)
 
 
 @cli.command()
@@ -93,6 +102,10 @@ def convert(cli_data):
 
 
 def set_logging(level):
+    """
+    Helper function to setup basic console logger.
+    @param level Logging level to report at
+    """
     log_level = getattr(logging, level.upper(), None)
     if not isinstance(log_level, int):
         log_level = logging.INFO

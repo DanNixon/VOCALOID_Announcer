@@ -31,8 +31,9 @@ def make_json_paths_absolute(data, json_file):
     """
 
     json_directory = os.path.abspath(os.path.dirname(json_file))
-    data['vsq_file'] = os.path.join(json_directory, data['vsq_file'])
-    data['audio_file'] = os.path.join(json_directory, data['audio_file'])
+    for _, s_data in data.iteritems():
+        s_data['vsq_file'] = os.path.join(json_directory, s_data['vsq_file'])
+        s_data['audio_file'] = os.path.join(json_directory, s_data['audio_file'])
 
 
 def validate_target_sound_str(sound_str):
