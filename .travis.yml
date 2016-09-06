@@ -8,10 +8,12 @@ install:
   - pip install ./converter
 
 script:
-  - cd converter && python setup.py nosetests
+  - cd converter
+  - python setup.py nosetests
+  - cd ..
   - vocaloid_announcer_conv
-    -s source\sources.json
-    -t targets\laptime.json
-    -t targets\multirotor.json
-    -t targets\opentx_system.json
+    -s source/sources.json
+    -t targets/laptime.json
+    -t targets/multirotor.json
+    -t targets/opentx_system.json
     list_missing_regions
