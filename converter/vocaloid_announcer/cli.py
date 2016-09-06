@@ -27,7 +27,7 @@ pass_cli_data = click.make_pass_decorator(CLIData, ensure=True)
 
 
 @click.group()
-@click.option('--log-level', default='INFO', help='Logging level [DEBUG,INFO,WARNING,ERROR,CRITICAL]')
+@click.option('--log-level', default='CRITICAL', help='Logging level [DEBUG,INFO,WARNING,ERROR,CRITICAL]')
 @click.option('-s', '--sound-file', multiple=True, type=click.File('r'), help='Input sound definition files')
 @click.option('-t', '--target-file', multiple=True, type=click.File('r'), help='Output target definition files')
 @pass_cli_data
@@ -89,6 +89,21 @@ def list_missing_regions(cli_data):
 
     if len(missing) > 0:
         click.get_current_context().exit(1)
+
+
+@cli.command()
+@pass_cli_data
+def list_unused_regions(cli_data):
+    """
+    List source sounds that are not used in any target.
+    """
+    cli_data.populate_vsq()
+
+    all_regions = cli_data.vsq.all_region_names()
+    required = cli_data.target.required_vsq_regions()
+
+    for region in all_regions.difference(required):
+        click.echo('{0}'.format(region))
 
 
 @cli.command()

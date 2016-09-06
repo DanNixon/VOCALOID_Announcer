@@ -6,12 +6,11 @@
     "sample_freq": 32000,
     "gain": 22
   },
-  "pause_note": 16,
   "sounds": {
-    "better.wav"   : "lap.time..improved",
-    "worse.wav"    : "lap.time..regressed",
+    "better.wav"   : "lap_time_improved",
+    "worse.wav"    : "lap_time_regressed",
     "lap.wav"      : "lap",
-    "rsaved.wav"   : "race....saved",
-    "rdiscard.wav" : "race....discarded"
+    "rsaved.wav"   : "race_saved",
+    "rdiscard.wav" : "race_discarded"
   }
 }

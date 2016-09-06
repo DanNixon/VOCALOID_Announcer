@@ -1,6 +1,7 @@
 import logging
 import xmltodict
 import parser
+import os
 from vocaloid_announcer.types import AbstractVSQRegion
 from pydub import AudioSegment
 
@@ -33,6 +34,12 @@ class VSQFileGroup(object):
             LOG.warn('No matches found for "%s"', name)
 
         return results
+
+    def all_region_names(self):
+        regions = set()
+        for f in self.files:
+            regions.update([r.name for r in f.regions])
+        return regions
 
     def __str__(self):
         return 'VSQFileGroup(file count = {})'.format(len(self.files))
@@ -107,6 +114,9 @@ class VSQRegion(AbstractVSQRegion):
         end_time_ms = self.parent.ms_per_tick * end_ticks
 
         LOG.debug('Calculated time %f - %f', start_time_ms, end_time_ms)
+
+        if not os.path.exists(self.parent.wav_filename):
+            raise RuntimeError('WAV file not found "%s"', self.parent.wav_filename)
 
         sound = AudioSegment.from_wav(self.parent.wav_filename)
         return sound[start_time_ms:end_time_ms]
