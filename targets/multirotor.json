@@ -7,10 +7,10 @@
     "gain": 22
   },
   "sounds": {
-    "angle.wav"     : "angle ^32:1 mode",
-    "acro.wav"      : "acro ^32:1 mode",
-    "horiz.wav"     : "horizon ^32:1 mode",
-    "hfree.wav"     : "headfree ^32:1 mode",
+    "angle.wav"     : "angle ^32:1 mode >8:2",
+    "acro.wav"      : "acro ^32:1 mode >8:2",
+    "horiz.wav"     : "horizon ^32:1 mode >8:2",
+    "hfree.wav"     : "headfree ^32:1 mode >8:2",
     "hfreer.wav"    : "headfree ^32:1 reset",
     "arm.wav"       : "arming",
     "disarm.wav"    : "disarmed",
