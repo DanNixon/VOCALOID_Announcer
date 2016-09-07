@@ -1,6 +1,6 @@
-import vocaloid_announcer.parser as parser
 import logging
 import os
+from vocaloid_announcer.components import MissingVSQRegion
 from pydub import AudioSegment
 
 LOG = logging.getLogger(__name__)
@@ -19,8 +19,9 @@ class TargetGroup(object):
         self.targets = list()
 
     def populate(self, files):
+        from vocaloid_announcer.parser import read_json_file
         for f in files:
-            data = parser.read_json_file(f)[1]
+            data = read_json_file(f)[1]
             self.targets.append(Target(data))
 
     def populate_vsq(self, vsq):
@@ -49,7 +50,7 @@ class Target(object):
     def __init__(self, json_data):
         for sound in json_data['sounds'].items():
             try:
-                self.sounds.append(TargetSound(sound))
+                self.sounds.append(TargetSound(sound[0], sound[1]))
             except RuntimeError as ex:
                 LOG.error(ex)
 
@@ -94,9 +95,33 @@ class TargetSound(object):
     _filename = ''
     _components = []
 
-    def __init__(self, json_data):
-        self._filename = json_data[0]
-        self._components = parser.parse_target_sound_str(json_data[1])
+    def __init__(self, filename, def_str):
+        if len(filename) == 0:
+            raise RuntimeError('No output filename provided')
+
+        self._filename = filename
+        self._components = []
+
+        part_strs = def_str.split()
+        if len(part_strs) == 0:
+            raise RuntimeError('No definition provided for sound')
+
+        for part in part_strs:
+            comp = None
+
+            from vocaloid_announcer.components import TYPES
+            for t in TYPES:
+                try:
+                    comp = t(part)
+                    LOG.trace('Found type (%s) for part "%s"', t, part)
+                    break
+                except:
+                    continue
+
+            if comp is None:
+                raise RuntimeError('No type found for part "{0}"'.format(part))
+
+            self._components.append(comp)
 
     def populate_vsq(self, vsq):
         for i, component in enumerate(self._components):
@@ -108,13 +133,11 @@ class TargetSound(object):
     def process(self, directory, audio_config, pause_note):
         sound = AudioSegment.empty()
 
-        for i, component in enumerate(self._components):
-            if i % 2 == 0:
-                sound += component.audio()
-            else:
-                resolution = max(self._components[i-1].resolution(), self._components[i+1].resolution())
-                LOG.debug('Pause resolution: %f', resolution)
-                sound += component.audio(pause_note=pause_note, resolution=resolution)
+        for i in range(len(self._components)):
+            prev_comp = self._components[i - 1] if i - 1 > 0 else None
+            next_comp = self._components[i + 1] if i + 1 < len(self._components) else None
+            sound, offset = self._components[i].process_audio(prev_comp, next_comp, sound)
+            i += offset
 
         sound += audio_config['gain']
         sound = sound.set_channels(audio_config['channels'])
@@ -131,57 +154,3 @@ class TargetSound(object):
 
     def __str__(self):
         return 'TargetSound("{}", [{}])'.format(self._filename, ','.join([str(c) for c in self._components]))
-
-
-class SoundComponent(object):
-    """
-    Base class for components of a target sound.
-    """
-
-    def audio(self, **args):
-        """
-        Generates an audio segment for the component.
-        @return Audio segment
-        """
-        raise NotImplementedError('No audio generation was implemented')
-
-
-class AbstractVSQRegion(SoundComponent):
-
-    name = ''
-
-    def audio(self, **args):
-        raise RuntimeError('Missing VSQ region "{}"'.format(self.name))
-
-
-class MissingVSQRegion(AbstractVSQRegion):
-
-    def __init__(self, name):
-        super(AbstractVSQRegion, self).__init__()
-        self.name = name
-
-    def __str__(self):
-        return 'MissingVSQRegion("{0}")'.format(self.name)
-
-
-class Pause(SoundComponent):
-    """
-    Class representing a pause of a given number of measures.
-    """
-
-    measures = 0
-
-    def __init__(self, measures):
-        super(SoundComponent, self).__init__()
-        if type(measures) is str or unicode:
-            measures = len(measures)
-        self.measures = measures
-
-    def audio(self, **args):
-        quarter_notes = (4.0 / float(args.get('pause_note', 4))) * self.measures
-        time_ms = quarter_notes * int(args.get('resolution', 480))
-        LOG.debug('Pause delay %fms', time_ms)
-        return AudioSegment.silent(duration=time_ms)
-
-    def __str__(self):
-        return 'Pause({0} measure(s))'.format(self.measures)

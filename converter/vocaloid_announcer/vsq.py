@@ -1,11 +1,24 @@
 import logging
 import xmltodict
-import parser
+import json
 import os
-from vocaloid_announcer.types import AbstractVSQRegion
+from vocaloid_announcer.components import AbstractVSQRegion
 from pydub import AudioSegment
 
 LOG = logging.getLogger(__name__)
+
+
+def make_json_paths_absolute(data, json_file):
+    """
+    Converts the paths in a source sound config file to absolute paths.
+    @param data JSON data
+    @param json_file Path to JSON file
+    """
+
+    json_directory = os.path.abspath(os.path.dirname(json_file))
+    for _, s_data in data.iteritems():
+        s_data['vsq_file'] = os.path.join(json_directory, s_data['vsq_file'])
+        s_data['audio_file'] = os.path.join(json_directory, s_data['audio_file'])
 
 
 class VSQFileGroup(object):
@@ -17,8 +30,8 @@ class VSQFileGroup(object):
 
     def populate(self, files):
         for f in files:
-            file_data = parser.read_json_file(f)[1]
-            parser.make_json_paths_absolute(file_data, f.name)
+            file_data = json.load(f)
+            make_json_paths_absolute(file_data, f.name)
 
             for name, data in file_data.iteritems():
                 self.files.append(VSQFile(name, data))
@@ -101,12 +114,15 @@ class VSQRegion(AbstractVSQRegion):
     data = None
 
     def __init__(self, data):
-        super(AbstractVSQRegion, self).__init__()
+        super(VSQRegion, self).__init__()
         self.name = data['name']
         self.data = data
         LOG.debug('New VSQRegion, name=%s', self.name)
 
-    def audio(self, **args):
+    def process_audio(self, prev_part, next_part, audio):
+        return (audio + self.get_audio_snippet(), 0)
+
+    def get_audio_snippet(self):
         start_ticks = int(self.data['t']) - self.parent.tick_start
         end_ticks = start_ticks + int(self.data['playTime'])
 

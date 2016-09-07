@@ -1,5 +1,5 @@
 import unittest
-import vocaloid_announcer.types as vat
+from vocaloid_announcer.types import Target
 
 
 class TargetTest(unittest.TestCase):
@@ -22,7 +22,7 @@ class TargetTest(unittest.TestCase):
             }
         }
 
-        t = vat.Target(json_data)
+        t = Target(json_data)
 
         self.assertEqual(t._metadata['profile'], u'profile name goes here')
         self.assertEqual(len(t._metadata['audio_format']), 3)
