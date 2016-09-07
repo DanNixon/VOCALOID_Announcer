@@ -16,8 +16,10 @@ def _vsq_regions(container, region_type):
 
 class TargetGroup(object):
 
+    targets = None
+
     def __init__(self):
-        self.targets = list()
+        self.targets = []
 
     def populate(self, files):
         for f in files:
@@ -25,12 +27,12 @@ class TargetGroup(object):
             self.targets.append(Target(data))
 
     def populate_vsq(self, vsq):
-        for targets in self.targets:
-            targets.populate_vsq(vsq)
+        for target in self.targets:
+            target.populate_vsq(vsq)
 
     def process(self):
-        for targets in self.targets:
-            targets.process()
+        for target in self.targets:
+            target.process()
 
     def required_vsq_regions(self):
         return _vsq_regions(self.targets, 'required')
@@ -45,9 +47,11 @@ class Target(object):
     """
 
     _metadata = None
-    sounds = []
+    sounds = None
 
     def __init__(self, json_data):
+        self.sounds = []
+
         for sound in json_data['sounds'].items():
             try:
                 self.sounds.append(TargetSound(sound[0], sound[1]))
