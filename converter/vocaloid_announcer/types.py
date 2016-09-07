@@ -1,5 +1,6 @@
 import logging
 import os
+import json
 from vocaloid_announcer.components import MissingVSQRegion
 from pydub import AudioSegment
 
@@ -19,9 +20,8 @@ class TargetGroup(object):
         self.targets = list()
 
     def populate(self, files):
-        from vocaloid_announcer.parser import read_json_file
         for f in files:
-            data = read_json_file(f)[1]
+            data = json.load(f)
             self.targets.append(Target(data))
 
     def populate_vsq(self, vsq):
