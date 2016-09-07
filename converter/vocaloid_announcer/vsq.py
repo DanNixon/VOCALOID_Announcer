@@ -2,8 +2,9 @@ import logging
 import xmltodict
 import json
 import os
-from vocaloid_announcer.components import AbstractVSQRegion
+from six import iteritems
 from pydub import AudioSegment
+from vocaloid_announcer.components import AbstractVSQRegion
 
 LOG = logging.getLogger(__name__)
 
@@ -16,7 +17,7 @@ def make_json_paths_absolute(data, json_file):
     """
 
     json_directory = os.path.abspath(os.path.dirname(json_file))
-    for _, s_data in data.iteritems():
+    for _, s_data in iteritems(data):
         s_data['vsq_file'] = os.path.join(json_directory, s_data['vsq_file'])
         s_data['audio_file'] = os.path.join(json_directory, s_data['audio_file'])
 
@@ -33,7 +34,7 @@ class VSQFileGroup(object):
             file_data = json.load(f)
             make_json_paths_absolute(file_data, f.name)
 
-            for name, data in file_data.iteritems():
+            for name, data in iteritems(file_data):
                 self.files.append(VSQFile(name, data))
 
     def find(self, name):
