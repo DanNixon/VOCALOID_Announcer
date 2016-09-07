@@ -139,11 +139,16 @@ class TargetSound(object):
     def process(self, directory, audio_config, pause_note):
         sound = AudioSegment.empty()
 
+        offset = 0
         for i in range(len(self._components)):
+            if offset > 0:
+                offset -= 1
+                continue
+
             prev_comp = self._components[i - 1] if i - 1 > 0 else None
             next_comp = self._components[i + 1] if i + 1 < len(self._components) else None
+
             sound, offset = self._components[i].process_audio(prev_comp, next_comp, sound)
-            i += offset
 
         sound += audio_config['gain']
         sound = sound.set_channels(audio_config['channels'])

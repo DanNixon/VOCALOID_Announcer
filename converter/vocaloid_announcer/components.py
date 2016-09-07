@@ -99,4 +99,34 @@ class Crossfade(AbstractComponentWithDuration):
         return 'Crossfade(note_div:{0} measures:{1})'.format(self.note_div, self.measures)
 
 
-TYPES = [MissingVSQRegion, Pause, Crossfade]
+class FadeIn(AbstractComponentWithDuration):
+    """
+    Class representing a fade in of a given duration.
+    """
+
+    def __init__(self, def_str):
+        super(FadeIn, self).__init__(def_str, '<')
+
+    def process_audio(self, prev_part, next_part, audio):
+        return (audio.append(next_part.get_audio_snippet().fade_in(int(self.get_duration_ms()))), 1)
+
+    def __str__(self):
+        return 'FadeIn(note_div:{0} measures:{1})'.format(self.note_div, self.measures)
+
+
+class FadeOut(AbstractComponentWithDuration):
+    """
+    Class representing a fade out of a given duration.
+    """
+
+    def __init__(self, def_str):
+        super(FadeOut, self).__init__(def_str, '>')
+
+    def process_audio(self, prev_part, next_part, audio):
+        return (audio.fade_out(int(self.get_duration_ms())), 0)
+
+    def __str__(self):
+        return 'FadeOut(note_div:{0} measures:{1})'.format(self.note_div, self.measures)
+
+
+TYPES = [MissingVSQRegion, Pause, Crossfade, FadeIn, FadeOut]

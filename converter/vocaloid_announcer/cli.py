@@ -59,6 +59,8 @@ def list_targets(cli_data):
     """
     List the sounds defined in each target.
     """
+    cli_data.populate_vsq()
+
     for target in cli_data.target.targets:
         click.echo('{0}'.format(target))
         for sound in target.sounds:
