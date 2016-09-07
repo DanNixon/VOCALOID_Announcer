@@ -129,6 +129,8 @@ class TargetSound(object):
                 region = vsq.find(component.name)
                 if len(region) == 1:
                     self._components[i] = region[0]
+                else:
+                    LOG.warn('Unexpected number of results for "%s": $d', component.name, len(region))
 
     def process(self, directory, audio_config, pause_note):
         sound = AudioSegment.empty()

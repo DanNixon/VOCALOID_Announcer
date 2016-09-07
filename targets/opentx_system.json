@@ -196,7 +196,7 @@
     "rx_org.wav"      : "rx battery low",
     "rx_red.wav"      : "rx battery critical",
     "swalert.wav"     : "switch warning",
-    "swr_red.wav"     : "radio antenna defective",
+    "swr_red.wav"     : "radio_antenna_defective",
     "tada.wav"        : "welcome",
     "tada_opentx.wav" : "welcome",
     "telemko.wav"     : "telemetry lost",
