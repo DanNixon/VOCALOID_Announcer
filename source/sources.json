@@ -1,11 +1,7 @@
 {
-  "general": {
-    "audio_file": "wav/general.wav",
-    "vsq_file": "vsq/general.vsqx"
-  },
-  "multirotor": {
-    "audio_file": "wav/multirotor.wav",
-    "vsq_file": "vsq/multirotor.vsqx"
+  "opentx": {
+    "audio_file": "wav/opentx.wav",
+    "vsq_file": "vsq/opentx.vsqx"
   },
   "numbers": {
     "audio_file": "wav/numbers.wav",
