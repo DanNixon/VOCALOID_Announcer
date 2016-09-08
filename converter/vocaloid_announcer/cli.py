@@ -110,6 +110,26 @@ def list_unused_regions(cli_data):
 
 @cli.command()
 @pass_cli_data
+def validate_filenames(cli_data):
+    """
+    Validates the filenames of target sounds.
+    """
+    have_violations = False
+
+    for t in cli_data.target.targets:
+        violations = t.validate_filenames()
+        if len(violations) > 0:
+            have_violations = True
+            click.echo(t)
+            for v in violations:
+                click.echo('{0}{1}'.format(INDENT, v))
+
+    if have_violations:
+        click.get_current_context().exit(1)
+
+
+@cli.command()
+@pass_cli_data
 def convert(cli_data):
     """
     Creates the voice bank for the specified output files.

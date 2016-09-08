@@ -1,5 +1,6 @@
 import logging
 import os
+import re
 import json
 from vocaloid_announcer.components import MissingVSQRegion
 from pydub import AudioSegment
@@ -86,6 +87,22 @@ class Target(object):
 
     def missing_vsq_regions(self):
         return _vsq_regions(self.sounds, 'missing')
+
+    def validate_filenames(self):
+        """
+        Validates the filenames of each sound based on the 'filename_validaton'
+        key in the metadata.
+        @return List of sounds with invalid names
+        """
+        violations = []
+
+        if 'filename_validaton' in self._metadata:
+            pattern = re.compile(self._metadata['filename_validaton'])
+            for s in self.sounds:
+                if not pattern.match(s._filename):
+                    violations.append(s)
+
+        return violations
 
     def __str__(self):
         return 'Target("{}", {} sound(s))'.format(self._metadata['profile'], len(self.sounds))

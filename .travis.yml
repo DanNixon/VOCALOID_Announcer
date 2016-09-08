@@ -17,3 +17,13 @@ script:
     -t targets/multirotor.json
     -t targets/opentx_system.json
     list_missing_regions
+  - vocaloid_announcer_conv
+    -t targets/laptime.json
+    -t targets/multirotor.json
+    -t targets/opentx_system.json
+    validate_filenames
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change

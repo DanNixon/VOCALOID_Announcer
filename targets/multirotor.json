@@ -6,6 +6,7 @@
     "sample_freq": 32000,
     "gain": 22
   },
+  "filename_validaton": "^\\w{1,8}\\.\\w{1,3}$",
   "sounds": {
     "angle.wav"     : "angle ^32:1 mode >8:2",
     "acro.wav"      : "acro ^32:1 mode >8:2",
