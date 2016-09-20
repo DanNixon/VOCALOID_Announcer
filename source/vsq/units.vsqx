@@ -5,7 +5,7 @@
 	<vVoiceTable>
 		<vVoice>
 			<bs>1</bs>
-			<pc>2</pc>
+			<pc>0</pc>
 			<id><![CDATA[BKMMC6EZLHZHZKC2]]></id>
 			<name><![CDATA[LUKA_V4X_ENG_Soft]]></name>
 			<vPrm>
@@ -108,7 +108,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -117,7 +117,7 @@
 			<note>
 				<t>60</t>
 				<dur>360</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[volt]]></y>
 				<p><![CDATA[v @U l t]]></p>
@@ -157,7 +157,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -166,7 +166,7 @@
 			<note>
 				<t>60</t>
 				<dur>360</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[volts]]></y>
 				<p><![CDATA[v @U l t s]]></p>
@@ -206,7 +206,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -215,7 +215,7 @@
 			<note>
 				<t>60</t>
 				<dur>420</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[amp]]></y>
 				<p><![CDATA[{ m p]]></p>
@@ -255,7 +255,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -264,7 +264,7 @@
 			<note>
 				<t>60</t>
 				<dur>480</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[amp]]></y>
 				<p lock="1"><![CDATA[{ m p s]]></p>
@@ -304,7 +304,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -313,7 +313,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[mi]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -332,7 +332,7 @@
 			<note>
 				<t>240</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[li]]></y>
 				<p><![CDATA[l0 i:]]></p>
@@ -351,7 +351,7 @@
 			<note>
 				<t>420</t>
 				<dur>420</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[amp]]></y>
 				<p><![CDATA[{ m p]]></p>
@@ -391,7 +391,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -400,7 +400,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[mi]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -419,7 +419,7 @@
 			<note>
 				<t>240</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[li]]></y>
 				<p><![CDATA[l0 i:]]></p>
@@ -438,7 +438,7 @@
 			<note>
 				<t>420</t>
 				<dur>480</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[amp]]></y>
 				<p lock="1"><![CDATA[{ m p s]]></p>
@@ -478,7 +478,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -487,7 +487,7 @@
 			<note>
 				<t>60</t>
 				<dur>360</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[knot]]></y>
 				<p><![CDATA[n Q t]]></p>
@@ -527,7 +527,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -536,7 +536,7 @@
 			<note>
 				<t>60</t>
 				<dur>360</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[knots]]></y>
 				<p><![CDATA[n Q t s]]></p>
@@ -576,7 +576,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -585,7 +585,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[me-]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -604,7 +604,7 @@
 			<note>
 				<t>240</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ter]]></y>
 				<p><![CDATA[t @r]]></p>
@@ -623,7 +623,7 @@
 			<note>
 				<t>420</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[per]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -642,7 +642,7 @@
 			<note>
 				<t>600</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[se-]]></y>
 				<p><![CDATA[s e]]></p>
@@ -661,7 +661,7 @@
 			<note>
 				<t>780</t>
 				<dur>180</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[cond]]></y>
 				<p><![CDATA[k V n d]]></p>
@@ -701,7 +701,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -710,7 +710,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[me-]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -729,7 +729,7 @@
 			<note>
 				<t>240</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ters]]></y>
 				<p><![CDATA[t @r z]]></p>
@@ -748,7 +748,7 @@
 			<note>
 				<t>420</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[per]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -767,7 +767,7 @@
 			<note>
 				<t>600</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[se-]]></y>
 				<p><![CDATA[s e]]></p>
@@ -786,7 +786,7 @@
 			<note>
 				<t>780</t>
 				<dur>180</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[cond]]></y>
 				<p><![CDATA[k V n d]]></p>
@@ -826,7 +826,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -835,7 +835,7 @@
 			<note>
 				<t>60</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[foot]]></y>
 				<p><![CDATA[f U t]]></p>
@@ -854,7 +854,7 @@
 			<note>
 				<t>360</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[per]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -873,7 +873,7 @@
 			<note>
 				<t>540</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[se-]]></y>
 				<p><![CDATA[s e]]></p>
@@ -892,7 +892,7 @@
 			<note>
 				<t>720</t>
 				<dur>180</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[cond]]></y>
 				<p><![CDATA[k V n d]]></p>
@@ -932,7 +932,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -941,7 +941,7 @@
 			<note>
 				<t>60</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[feet]]></y>
 				<p><![CDATA[f i: t]]></p>
@@ -960,7 +960,7 @@
 			<note>
 				<t>360</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[per]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -979,7 +979,7 @@
 			<note>
 				<t>540</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[se-]]></y>
 				<p><![CDATA[s e]]></p>
@@ -998,7 +998,7 @@
 			<note>
 				<t>720</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[cond]]></y>
 				<p><![CDATA[k V n d]]></p>
@@ -1038,7 +1038,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1047,7 +1047,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ki-]]></y>
 				<p><![CDATA[kh I]]></p>
@@ -1066,7 +1066,7 @@
 			<note>
 				<t>240</t>
 				<dur>120</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[lo-]]></y>
 				<p><![CDATA[l Q]]></p>
@@ -1085,7 +1085,7 @@
 			<note>
 				<t>360</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[me-]]></y>
 				<p><![CDATA[m I]]></p>
@@ -1104,7 +1104,7 @@
 			<note>
 				<t>480</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ter]]></y>
 				<p><![CDATA[t @r]]></p>
@@ -1123,7 +1123,7 @@
 			<note>
 				<t>720</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[per]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -1142,7 +1142,7 @@
 			<note>
 				<t>900</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ho-]]></y>
 				<p><![CDATA[aU]]></p>
@@ -1161,7 +1161,7 @@
 			<note>
 				<t>1020</t>
 				<dur>120</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[ur]]></y>
 				<p><![CDATA[@r]]></p>
@@ -1201,7 +1201,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1210,7 +1210,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ki-]]></y>
 				<p><![CDATA[kh I]]></p>
@@ -1229,7 +1229,7 @@
 			<note>
 				<t>240</t>
 				<dur>120</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[lo-]]></y>
 				<p><![CDATA[l Q]]></p>
@@ -1248,7 +1248,7 @@
 			<note>
 				<t>360</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[me-]]></y>
 				<p><![CDATA[m I]]></p>
@@ -1267,7 +1267,7 @@
 			<note>
 				<t>480</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ters]]></y>
 				<p><![CDATA[t @r z]]></p>
@@ -1286,7 +1286,7 @@
 			<note>
 				<t>723</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[per]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -1305,7 +1305,7 @@
 			<note>
 				<t>903</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ho-]]></y>
 				<p><![CDATA[aU]]></p>
@@ -1324,7 +1324,7 @@
 			<note>
 				<t>1023</t>
 				<dur>120</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[ur]]></y>
 				<p><![CDATA[@r]]></p>
@@ -1364,7 +1364,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1373,7 +1373,7 @@
 			<note>
 				<t>60</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[mile]]></y>
 				<p><![CDATA[m aI l]]></p>
@@ -1392,7 +1392,7 @@
 			<note>
 				<t>360</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[per]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -1411,7 +1411,7 @@
 			<note>
 				<t>540</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ho-]]></y>
 				<p><![CDATA[aU]]></p>
@@ -1430,7 +1430,7 @@
 			<note>
 				<t>660</t>
 				<dur>120</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[ur]]></y>
 				<p><![CDATA[@r]]></p>
@@ -1470,7 +1470,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1479,7 +1479,7 @@
 			<note>
 				<t>60</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[miles]]></y>
 				<p><![CDATA[m aI l z]]></p>
@@ -1498,7 +1498,7 @@
 			<note>
 				<t>360</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[per]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -1517,7 +1517,7 @@
 			<note>
 				<t>540</t>
 				<dur>120</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ho-]]></y>
 				<p><![CDATA[aU]]></p>
@@ -1536,7 +1536,7 @@
 			<note>
 				<t>660</t>
 				<dur>120</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[ur]]></y>
 				<p><![CDATA[@r]]></p>
@@ -1576,7 +1576,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1585,7 +1585,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[me-]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -1604,7 +1604,7 @@
 			<note>
 				<t>240</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ter]]></y>
 				<p><![CDATA[t @r]]></p>
@@ -1644,7 +1644,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1653,7 +1653,7 @@
 			<note>
 				<t>60</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[me-]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -1672,7 +1672,7 @@
 			<note>
 				<t>300</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ters]]></y>
 				<p><![CDATA[t @r z]]></p>
@@ -1712,7 +1712,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1721,7 +1721,7 @@
 			<note>
 				<t>60</t>
 				<dur>420</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[foot]]></y>
 				<p><![CDATA[f U t]]></p>
@@ -1761,7 +1761,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1770,7 +1770,7 @@
 			<note>
 				<t>60</t>
 				<dur>420</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[feet]]></y>
 				<p><![CDATA[f i: t]]></p>
@@ -1810,7 +1810,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1819,7 +1819,7 @@
 			<note>
 				<t>60</t>
 				<dur>240</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[deg-]]></y>
 				<p><![CDATA[dh I g]]></p>
@@ -1838,7 +1838,7 @@
 			<note>
 				<t>300</t>
 				<dur>360</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ree]]></y>
 				<p><![CDATA[r i:]]></p>
@@ -1878,7 +1878,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1887,7 +1887,7 @@
 			<note>
 				<t>63</t>
 				<dur>237</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[deg-]]></y>
 				<p><![CDATA[dh I g]]></p>
@@ -1906,7 +1906,7 @@
 			<note>
 				<t>300</t>
 				<dur>420</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[rees]]></y>
 				<p><![CDATA[r i: z]]></p>
@@ -1946,7 +1946,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -1955,7 +1955,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[deg-]]></y>
 				<p><![CDATA[dh I g]]></p>
@@ -1974,7 +1974,7 @@
 			<note>
 				<t>240</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ree]]></y>
 				<p><![CDATA[r i:]]></p>
@@ -1993,7 +1993,7 @@
 			<note>
 				<t>600</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[fah-]]></y>
 				<p><![CDATA[f e@]]></p>
@@ -2012,7 +2012,7 @@
 			<note>
 				<t>780</t>
 				<dur>180</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[ren-]]></y>
 				<p><![CDATA[r V n]]></p>
@@ -2031,7 +2031,7 @@
 			<note>
 				<t>960</t>
 				<dur>240</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[heit]]></y>
 				<p><![CDATA[h aI t]]></p>
@@ -2071,7 +2071,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2080,7 +2080,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[deg-]]></y>
 				<p><![CDATA[dh I g]]></p>
@@ -2099,7 +2099,7 @@
 			<note>
 				<t>240</t>
 				<dur>357</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[rees]]></y>
 				<p><![CDATA[r i: z]]></p>
@@ -2118,7 +2118,7 @@
 			<note>
 				<t>660</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[fah-]]></y>
 				<p><![CDATA[f e@]]></p>
@@ -2137,7 +2137,7 @@
 			<note>
 				<t>840</t>
 				<dur>180</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[ren-]]></y>
 				<p><![CDATA[r V n]]></p>
@@ -2156,7 +2156,7 @@
 			<note>
 				<t>1020</t>
 				<dur>240</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[heit]]></y>
 				<p><![CDATA[h aI t]]></p>
@@ -2196,7 +2196,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2205,7 +2205,7 @@
 			<note>
 				<t>60</t>
 				<dur>240</dur>
-				<n>61</n>
+				<n>58</n>
 				<v>64</v>
 				<y><![CDATA[per-]]></y>
 				<p><![CDATA[ph @r]]></p>
@@ -2224,7 +2224,7 @@
 			<note>
 				<t>300</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[cent]]></y>
 				<p><![CDATA[s e n t]]></p>
@@ -2264,7 +2264,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2273,7 +2273,7 @@
 			<note>
 				<t>60</t>
 				<dur>120</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[mi]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -2292,7 +2292,7 @@
 			<note>
 				<t>180</t>
 				<dur>120</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[li]]></y>
 				<p><![CDATA[l0 i:]]></p>
@@ -2311,7 +2311,7 @@
 			<note>
 				<t>300</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[amp]]></y>
 				<p><![CDATA[{ m p]]></p>
@@ -2330,7 +2330,7 @@
 			<note>
 				<t>540</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ho-]]></y>
 				<p><![CDATA[aU]]></p>
@@ -2349,7 +2349,7 @@
 			<note>
 				<t>720</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ur]]></y>
 				<p><![CDATA[@r]]></p>
@@ -2389,7 +2389,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2398,7 +2398,7 @@
 			<note>
 				<t>60</t>
 				<dur>120</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[mi]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -2417,7 +2417,7 @@
 			<note>
 				<t>180</t>
 				<dur>120</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[li]]></y>
 				<p><![CDATA[l0 i:]]></p>
@@ -2436,7 +2436,7 @@
 			<note>
 				<t>300</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[amp]]></y>
 				<p><![CDATA[{ m p]]></p>
@@ -2455,7 +2455,7 @@
 			<note>
 				<t>540</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[hou-]]></y>
 				<p><![CDATA[aU]]></p>
@@ -2474,7 +2474,7 @@
 			<note>
 				<t>720</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[rs]]></y>
 				<p><![CDATA[@r z]]></p>
@@ -2514,7 +2514,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2523,7 +2523,7 @@
 			<note>
 				<t>60</t>
 				<dur>360</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[watt]]></y>
 				<p><![CDATA[w Q t]]></p>
@@ -2542,7 +2542,7 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>55800</t>
+			<t>55470</t>
 			<playTime>420</playTime>
 			<name><![CDATA[watts]]></name>
 			<comment><![CDATA[]]></comment>
@@ -2563,7 +2563,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2572,7 +2572,7 @@
 			<note>
 				<t>60</t>
 				<dur>360</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[watts]]></y>
 				<p><![CDATA[w Q t s]]></p>
@@ -2591,8 +2591,8 @@
 			<plane>0</plane>
 		</vsPart>
 		<vsPart>
-			<t>57180</t>
-			<playTime>720</playTime>
+			<t>56400</t>
+			<playTime>690</playTime>
 			<name><![CDATA[db]]></name>
 			<comment><![CDATA[]]></comment>
 			<sPlug>
@@ -2612,7 +2612,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2620,11 +2620,501 @@
 			</cc>
 			<note>
 				<t>60</t>
-				<dur>240</dur>
-				<n>62</n>
+				<dur>180</dur>
+				<n>59</n>
 				<v>64</v>
-				<y><![CDATA[d]]></y>
-				<p><![CDATA[dh i:]]></p>
+				<y><![CDATA[des]]></y>
+				<p><![CDATA[dh e]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc>
+							<p>22282</p>
+							<v>64</v>
+						</cc>
+						<cc>
+							<p>48775</p>
+							<v>63</v>
+						</cc>
+						<cc>
+							<p>48957</p>
+							<v>62</v>
+						</cc>
+						<cc>
+							<p>49134</p>
+							<v>61</v>
+						</cc>
+						<cc>
+							<p>49316</p>
+							<v>59</v>
+						</cc>
+						<cc>
+							<p>49675</p>
+							<v>58</v>
+						</cc>
+						<cc>
+							<p>49857</p>
+							<v>57</v>
+						</cc>
+						<cc>
+							<p>50038</p>
+							<v>56</v>
+						</cc>
+						<cc>
+							<p>50216</p>
+							<v>55</v>
+						</cc>
+						<cc>
+							<p>50579</p>
+							<v>54</v>
+						</cc>
+						<cc>
+							<p>50756</p>
+							<v>52</v>
+						</cc>
+						<cc>
+							<p>51120</p>
+							<v>51</v>
+						</cc>
+						<cc>
+							<p>51297</p>
+							<v>50</v>
+						</cc>
+						<cc>
+							<p>51479</p>
+							<v>49</v>
+						</cc>
+						<cc>
+							<p>51660</p>
+							<v>48</v>
+						</cc>
+						<cc>
+							<p>51838</p>
+							<v>47</v>
+						</cc>
+						<cc>
+							<p>52201</p>
+							<v>45</v>
+						</cc>
+						<cc>
+							<p>52378</p>
+							<v>44</v>
+						</cc>
+						<cc>
+							<p>52742</p>
+							<v>43</v>
+						</cc>
+						<cc>
+							<p>52919</p>
+							<v>42</v>
+						</cc>
+						<cc>
+							<p>53101</p>
+							<v>41</v>
+						</cc>
+						<cc>
+							<p>53282</p>
+							<v>40</v>
+						</cc>
+						<cc>
+							<p>53460</p>
+							<v>39</v>
+						</cc>
+						<cc>
+							<p>53641</p>
+							<v>38</v>
+						</cc>
+						<cc>
+							<p>53823</p>
+							<v>37</v>
+						</cc>
+						<cc>
+							<p>54182</p>
+							<v>35</v>
+						</cc>
+						<cc>
+							<p>54541</p>
+							<v>34</v>
+						</cc>
+						<cc>
+							<p>54723</p>
+							<v>32</v>
+						</cc>
+						<cc>
+							<p>55082</p>
+							<v>31</v>
+						</cc>
+						<cc>
+							<p>55263</p>
+							<v>30</v>
+						</cc>
+						<cc>
+							<p>55445</p>
+							<v>29</v>
+						</cc>
+						<cc>
+							<p>55622</p>
+							<v>28</v>
+						</cc>
+						<cc>
+							<p>55804</p>
+							<v>27</v>
+						</cc>
+						<cc>
+							<p>56163</p>
+							<v>25</v>
+						</cc>
+						<cc>
+							<p>56526</p>
+							<v>24</v>
+						</cc>
+						<cc>
+							<p>56704</p>
+							<v>23</v>
+						</cc>
+						<cc>
+							<p>56885</p>
+							<v>22</v>
+						</cc>
+						<cc>
+							<p>57067</p>
+							<v>21</v>
+						</cc>
+						<cc>
+							<p>57244</p>
+							<v>20</v>
+						</cc>
+						<cc>
+							<p>57426</p>
+							<v>19</v>
+						</cc>
+						<cc>
+							<p>57785</p>
+							<v>17</v>
+						</cc>
+						<cc>
+							<p>58148</p>
+							<v>15</v>
+						</cc>
+						<cc>
+							<p>58507</p>
+							<v>14</v>
+						</cc>
+						<cc>
+							<p>58689</p>
+							<v>13</v>
+						</cc>
+						<cc>
+							<p>58866</p>
+							<v>12</v>
+						</cc>
+						<cc>
+							<p>59048</p>
+							<v>11</v>
+						</cc>
+						<cc>
+							<p>59230</p>
+							<v>10</v>
+						</cc>
+						<cc>
+							<p>59589</p>
+							<v>8</v>
+						</cc>
+						<cc>
+							<p>59770</p>
+							<v>7</v>
+						</cc>
+						<cc>
+							<p>60129</p>
+							<v>6</v>
+						</cc>
+						<cc>
+							<p>60311</p>
+							<v>5</v>
+						</cc>
+						<cc>
+							<p>60488</p>
+							<v>4</v>
+						</cc>
+						<cc>
+							<p>60670</p>
+							<v>3</v>
+						</cc>
+						<cc>
+							<p>60852</p>
+							<v>2</v>
+						</cc>
+						<cc>
+							<p>61029</p>
+							<v>1</v>
+						</cc>
+						<cc>
+							<p>61211</p>
+							<v>0</v>
+						</cc>
+					</seq>
+					<seq id="vibRate">
+						<cc>
+							<p>22282</p>
+							<v>64</v>
+						</cc>
+						<cc>
+							<p>48775</p>
+							<v>63</v>
+						</cc>
+						<cc>
+							<p>48957</p>
+							<v>62</v>
+						</cc>
+						<cc>
+							<p>49134</p>
+							<v>61</v>
+						</cc>
+						<cc>
+							<p>49316</p>
+							<v>59</v>
+						</cc>
+						<cc>
+							<p>49675</p>
+							<v>58</v>
+						</cc>
+						<cc>
+							<p>49857</p>
+							<v>57</v>
+						</cc>
+						<cc>
+							<p>50038</p>
+							<v>56</v>
+						</cc>
+						<cc>
+							<p>50216</p>
+							<v>55</v>
+						</cc>
+						<cc>
+							<p>50579</p>
+							<v>54</v>
+						</cc>
+						<cc>
+							<p>50756</p>
+							<v>52</v>
+						</cc>
+						<cc>
+							<p>51120</p>
+							<v>51</v>
+						</cc>
+						<cc>
+							<p>51297</p>
+							<v>50</v>
+						</cc>
+						<cc>
+							<p>51479</p>
+							<v>49</v>
+						</cc>
+						<cc>
+							<p>51660</p>
+							<v>48</v>
+						</cc>
+						<cc>
+							<p>51838</p>
+							<v>47</v>
+						</cc>
+						<cc>
+							<p>52201</p>
+							<v>45</v>
+						</cc>
+						<cc>
+							<p>52378</p>
+							<v>44</v>
+						</cc>
+						<cc>
+							<p>52742</p>
+							<v>43</v>
+						</cc>
+						<cc>
+							<p>52919</p>
+							<v>42</v>
+						</cc>
+						<cc>
+							<p>53101</p>
+							<v>41</v>
+						</cc>
+						<cc>
+							<p>53282</p>
+							<v>40</v>
+						</cc>
+						<cc>
+							<p>53460</p>
+							<v>39</v>
+						</cc>
+						<cc>
+							<p>53641</p>
+							<v>38</v>
+						</cc>
+						<cc>
+							<p>53823</p>
+							<v>37</v>
+						</cc>
+						<cc>
+							<p>54182</p>
+							<v>35</v>
+						</cc>
+						<cc>
+							<p>54541</p>
+							<v>34</v>
+						</cc>
+						<cc>
+							<p>54723</p>
+							<v>32</v>
+						</cc>
+						<cc>
+							<p>55082</p>
+							<v>31</v>
+						</cc>
+						<cc>
+							<p>55263</p>
+							<v>30</v>
+						</cc>
+						<cc>
+							<p>55445</p>
+							<v>29</v>
+						</cc>
+						<cc>
+							<p>55622</p>
+							<v>28</v>
+						</cc>
+						<cc>
+							<p>55804</p>
+							<v>27</v>
+						</cc>
+						<cc>
+							<p>56163</p>
+							<v>25</v>
+						</cc>
+						<cc>
+							<p>56526</p>
+							<v>24</v>
+						</cc>
+						<cc>
+							<p>56704</p>
+							<v>23</v>
+						</cc>
+						<cc>
+							<p>56885</p>
+							<v>22</v>
+						</cc>
+						<cc>
+							<p>57067</p>
+							<v>21</v>
+						</cc>
+						<cc>
+							<p>57244</p>
+							<v>20</v>
+						</cc>
+						<cc>
+							<p>57426</p>
+							<v>19</v>
+						</cc>
+						<cc>
+							<p>57785</p>
+							<v>17</v>
+						</cc>
+						<cc>
+							<p>58148</p>
+							<v>15</v>
+						</cc>
+						<cc>
+							<p>58507</p>
+							<v>14</v>
+						</cc>
+						<cc>
+							<p>58689</p>
+							<v>13</v>
+						</cc>
+						<cc>
+							<p>58866</p>
+							<v>12</v>
+						</cc>
+						<cc>
+							<p>59048</p>
+							<v>11</v>
+						</cc>
+						<cc>
+							<p>59230</p>
+							<v>10</v>
+						</cc>
+						<cc>
+							<p>59589</p>
+							<v>8</v>
+						</cc>
+						<cc>
+							<p>59770</p>
+							<v>7</v>
+						</cc>
+						<cc>
+							<p>60129</p>
+							<v>6</v>
+						</cc>
+						<cc>
+							<p>60311</p>
+							<v>5</v>
+						</cc>
+						<cc>
+							<p>60488</p>
+							<v>4</v>
+						</cc>
+						<cc>
+							<p>60670</p>
+							<v>3</v>
+						</cc>
+						<cc>
+							<p>60852</p>
+							<v>2</v>
+						</cc>
+						<cc>
+							<p>61029</p>
+							<v>1</v>
+						</cc>
+						<cc>
+							<p>61211</p>
+							<v>0</v>
+						</cc>
+					</seq>
+				</nStyle>
+			</note>
+			<note>
+				<t>240</t>
+				<dur>150</dur>
+				<n>59</n>
+				<v>64</v>
+				<y><![CDATA[see]]></y>
+				<p><![CDATA[s i:]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">57</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<note>
+				<t>390</t>
+				<dur>240</dur>
+				<n>58</n>
+				<v>64</v>
+				<y><![CDATA[bell]]></y>
+				<p><![CDATA[bh e l]]></p>
 				<nStyle>
 					<v id="accent">50</v>
 					<v id="bendDep">8</v>
@@ -2637,13 +3127,533 @@
 					<v id="vibType">1</v>
 				</nStyle>
 			</note>
+			<plane>0</plane>
+		</vsPart>
+		<vsPart>
+			<t>57750</t>
+			<playTime>780</playTime>
+			<name><![CDATA[dbs]]></name>
+			<comment><![CDATA[]]></comment>
+			<sPlug>
+				<id><![CDATA[ACA9C502-A04B-42b5-B2EB-5CEA36D16FCE]]></id>
+				<name><![CDATA[VOCALOID2 Compatible Style]]></name>
+				<version><![CDATA[3.0.0.1]]></version>
+			</sPlug>
+			<pStyle>
+				<v id="accent">50</v>
+				<v id="bendDep">8</v>
+				<v id="bendLen">0</v>
+				<v id="decay">50</v>
+				<v id="fallPort">0</v>
+				<v id="opening">127</v>
+				<v id="risePort">0</v>
+			</pStyle>
+			<singer>
+				<t>0</t>
+				<bs>1</bs>
+				<pc>0</pc>
+			</singer>
+			<cc>
+				<t>0</t>
+				<v id="D">100</v>
+			</cc>
 			<note>
-				<t>360</t>
-				<dur>360</dur>
-				<n>63</n>
+				<t>60</t>
+				<dur>180</dur>
+				<n>59</n>
 				<v>64</v>
-				<y><![CDATA[b]]></y>
-				<p><![CDATA[bh i:]]></p>
+				<y><![CDATA[des]]></y>
+				<p><![CDATA[dh e]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">127</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">66</v>
+					<v id="vibType">1</v>
+					<seq id="vibDep">
+						<cc>
+							<p>22282</p>
+							<v>64</v>
+						</cc>
+						<cc>
+							<p>48775</p>
+							<v>63</v>
+						</cc>
+						<cc>
+							<p>48957</p>
+							<v>62</v>
+						</cc>
+						<cc>
+							<p>49134</p>
+							<v>61</v>
+						</cc>
+						<cc>
+							<p>49316</p>
+							<v>59</v>
+						</cc>
+						<cc>
+							<p>49675</p>
+							<v>58</v>
+						</cc>
+						<cc>
+							<p>49857</p>
+							<v>57</v>
+						</cc>
+						<cc>
+							<p>50038</p>
+							<v>56</v>
+						</cc>
+						<cc>
+							<p>50216</p>
+							<v>55</v>
+						</cc>
+						<cc>
+							<p>50579</p>
+							<v>54</v>
+						</cc>
+						<cc>
+							<p>50756</p>
+							<v>52</v>
+						</cc>
+						<cc>
+							<p>51120</p>
+							<v>51</v>
+						</cc>
+						<cc>
+							<p>51297</p>
+							<v>50</v>
+						</cc>
+						<cc>
+							<p>51479</p>
+							<v>49</v>
+						</cc>
+						<cc>
+							<p>51660</p>
+							<v>48</v>
+						</cc>
+						<cc>
+							<p>51838</p>
+							<v>47</v>
+						</cc>
+						<cc>
+							<p>52201</p>
+							<v>45</v>
+						</cc>
+						<cc>
+							<p>52378</p>
+							<v>44</v>
+						</cc>
+						<cc>
+							<p>52742</p>
+							<v>43</v>
+						</cc>
+						<cc>
+							<p>52919</p>
+							<v>42</v>
+						</cc>
+						<cc>
+							<p>53101</p>
+							<v>41</v>
+						</cc>
+						<cc>
+							<p>53282</p>
+							<v>40</v>
+						</cc>
+						<cc>
+							<p>53460</p>
+							<v>39</v>
+						</cc>
+						<cc>
+							<p>53641</p>
+							<v>38</v>
+						</cc>
+						<cc>
+							<p>53823</p>
+							<v>37</v>
+						</cc>
+						<cc>
+							<p>54182</p>
+							<v>35</v>
+						</cc>
+						<cc>
+							<p>54541</p>
+							<v>34</v>
+						</cc>
+						<cc>
+							<p>54723</p>
+							<v>32</v>
+						</cc>
+						<cc>
+							<p>55082</p>
+							<v>31</v>
+						</cc>
+						<cc>
+							<p>55263</p>
+							<v>30</v>
+						</cc>
+						<cc>
+							<p>55445</p>
+							<v>29</v>
+						</cc>
+						<cc>
+							<p>55622</p>
+							<v>28</v>
+						</cc>
+						<cc>
+							<p>55804</p>
+							<v>27</v>
+						</cc>
+						<cc>
+							<p>56163</p>
+							<v>25</v>
+						</cc>
+						<cc>
+							<p>56526</p>
+							<v>24</v>
+						</cc>
+						<cc>
+							<p>56704</p>
+							<v>23</v>
+						</cc>
+						<cc>
+							<p>56885</p>
+							<v>22</v>
+						</cc>
+						<cc>
+							<p>57067</p>
+							<v>21</v>
+						</cc>
+						<cc>
+							<p>57244</p>
+							<v>20</v>
+						</cc>
+						<cc>
+							<p>57426</p>
+							<v>19</v>
+						</cc>
+						<cc>
+							<p>57785</p>
+							<v>17</v>
+						</cc>
+						<cc>
+							<p>58148</p>
+							<v>15</v>
+						</cc>
+						<cc>
+							<p>58507</p>
+							<v>14</v>
+						</cc>
+						<cc>
+							<p>58689</p>
+							<v>13</v>
+						</cc>
+						<cc>
+							<p>58866</p>
+							<v>12</v>
+						</cc>
+						<cc>
+							<p>59048</p>
+							<v>11</v>
+						</cc>
+						<cc>
+							<p>59230</p>
+							<v>10</v>
+						</cc>
+						<cc>
+							<p>59589</p>
+							<v>8</v>
+						</cc>
+						<cc>
+							<p>59770</p>
+							<v>7</v>
+						</cc>
+						<cc>
+							<p>60129</p>
+							<v>6</v>
+						</cc>
+						<cc>
+							<p>60311</p>
+							<v>5</v>
+						</cc>
+						<cc>
+							<p>60488</p>
+							<v>4</v>
+						</cc>
+						<cc>
+							<p>60670</p>
+							<v>3</v>
+						</cc>
+						<cc>
+							<p>60852</p>
+							<v>2</v>
+						</cc>
+						<cc>
+							<p>61029</p>
+							<v>1</v>
+						</cc>
+						<cc>
+							<p>61211</p>
+							<v>0</v>
+						</cc>
+					</seq>
+					<seq id="vibRate">
+						<cc>
+							<p>22282</p>
+							<v>64</v>
+						</cc>
+						<cc>
+							<p>48775</p>
+							<v>63</v>
+						</cc>
+						<cc>
+							<p>48957</p>
+							<v>62</v>
+						</cc>
+						<cc>
+							<p>49134</p>
+							<v>61</v>
+						</cc>
+						<cc>
+							<p>49316</p>
+							<v>59</v>
+						</cc>
+						<cc>
+							<p>49675</p>
+							<v>58</v>
+						</cc>
+						<cc>
+							<p>49857</p>
+							<v>57</v>
+						</cc>
+						<cc>
+							<p>50038</p>
+							<v>56</v>
+						</cc>
+						<cc>
+							<p>50216</p>
+							<v>55</v>
+						</cc>
+						<cc>
+							<p>50579</p>
+							<v>54</v>
+						</cc>
+						<cc>
+							<p>50756</p>
+							<v>52</v>
+						</cc>
+						<cc>
+							<p>51120</p>
+							<v>51</v>
+						</cc>
+						<cc>
+							<p>51297</p>
+							<v>50</v>
+						</cc>
+						<cc>
+							<p>51479</p>
+							<v>49</v>
+						</cc>
+						<cc>
+							<p>51660</p>
+							<v>48</v>
+						</cc>
+						<cc>
+							<p>51838</p>
+							<v>47</v>
+						</cc>
+						<cc>
+							<p>52201</p>
+							<v>45</v>
+						</cc>
+						<cc>
+							<p>52378</p>
+							<v>44</v>
+						</cc>
+						<cc>
+							<p>52742</p>
+							<v>43</v>
+						</cc>
+						<cc>
+							<p>52919</p>
+							<v>42</v>
+						</cc>
+						<cc>
+							<p>53101</p>
+							<v>41</v>
+						</cc>
+						<cc>
+							<p>53282</p>
+							<v>40</v>
+						</cc>
+						<cc>
+							<p>53460</p>
+							<v>39</v>
+						</cc>
+						<cc>
+							<p>53641</p>
+							<v>38</v>
+						</cc>
+						<cc>
+							<p>53823</p>
+							<v>37</v>
+						</cc>
+						<cc>
+							<p>54182</p>
+							<v>35</v>
+						</cc>
+						<cc>
+							<p>54541</p>
+							<v>34</v>
+						</cc>
+						<cc>
+							<p>54723</p>
+							<v>32</v>
+						</cc>
+						<cc>
+							<p>55082</p>
+							<v>31</v>
+						</cc>
+						<cc>
+							<p>55263</p>
+							<v>30</v>
+						</cc>
+						<cc>
+							<p>55445</p>
+							<v>29</v>
+						</cc>
+						<cc>
+							<p>55622</p>
+							<v>28</v>
+						</cc>
+						<cc>
+							<p>55804</p>
+							<v>27</v>
+						</cc>
+						<cc>
+							<p>56163</p>
+							<v>25</v>
+						</cc>
+						<cc>
+							<p>56526</p>
+							<v>24</v>
+						</cc>
+						<cc>
+							<p>56704</p>
+							<v>23</v>
+						</cc>
+						<cc>
+							<p>56885</p>
+							<v>22</v>
+						</cc>
+						<cc>
+							<p>57067</p>
+							<v>21</v>
+						</cc>
+						<cc>
+							<p>57244</p>
+							<v>20</v>
+						</cc>
+						<cc>
+							<p>57426</p>
+							<v>19</v>
+						</cc>
+						<cc>
+							<p>57785</p>
+							<v>17</v>
+						</cc>
+						<cc>
+							<p>58148</p>
+							<v>15</v>
+						</cc>
+						<cc>
+							<p>58507</p>
+							<v>14</v>
+						</cc>
+						<cc>
+							<p>58689</p>
+							<v>13</v>
+						</cc>
+						<cc>
+							<p>58866</p>
+							<v>12</v>
+						</cc>
+						<cc>
+							<p>59048</p>
+							<v>11</v>
+						</cc>
+						<cc>
+							<p>59230</p>
+							<v>10</v>
+						</cc>
+						<cc>
+							<p>59589</p>
+							<v>8</v>
+						</cc>
+						<cc>
+							<p>59770</p>
+							<v>7</v>
+						</cc>
+						<cc>
+							<p>60129</p>
+							<v>6</v>
+						</cc>
+						<cc>
+							<p>60311</p>
+							<v>5</v>
+						</cc>
+						<cc>
+							<p>60488</p>
+							<v>4</v>
+						</cc>
+						<cc>
+							<p>60670</p>
+							<v>3</v>
+						</cc>
+						<cc>
+							<p>60852</p>
+							<v>2</v>
+						</cc>
+						<cc>
+							<p>61029</p>
+							<v>1</v>
+						</cc>
+						<cc>
+							<p>61211</p>
+							<v>0</v>
+						</cc>
+					</seq>
+				</nStyle>
+			</note>
+			<note>
+				<t>240</t>
+				<dur>150</dur>
+				<n>59</n>
+				<v>64</v>
+				<y><![CDATA[see]]></y>
+				<p><![CDATA[s i:]]></p>
+				<nStyle>
+					<v id="accent">50</v>
+					<v id="bendDep">8</v>
+					<v id="bendLen">0</v>
+					<v id="decay">50</v>
+					<v id="fallPort">0</v>
+					<v id="opening">57</v>
+					<v id="risePort">0</v>
+					<v id="vibLen">0</v>
+					<v id="vibType">1</v>
+				</nStyle>
+			</note>
+			<note>
+				<t>390</t>
+				<dur>330</dur>
+				<n>58</n>
+				<v>64</v>
+				<y><![CDATA[bells]]></y>
+				<p><![CDATA[bh e l z]]></p>
 				<nStyle>
 					<v id="accent">50</v>
 					<v id="bendDep">8</v>
@@ -2680,7 +3690,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2689,7 +3699,7 @@
 			<note>
 				<t>60</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[r]]></y>
 				<p><![CDATA[Q@]]></p>
@@ -2708,7 +3718,7 @@
 			<note>
 				<t>360</t>
 				<dur>240</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[p]]></y>
 				<p><![CDATA[ph i:]]></p>
@@ -2727,7 +3737,7 @@
 			<note>
 				<t>660</t>
 				<dur>240</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[m]]></y>
 				<p><![CDATA[e m]]></p>
@@ -2767,7 +3777,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2776,7 +3786,7 @@
 			<note>
 				<t>60</t>
 				<dur>60</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[g]]></y>
 				<p><![CDATA[dZ i:]]></p>
@@ -2795,7 +3805,7 @@
 			<note>
 				<t>120</t>
 				<dur>300</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[eee]]></y>
 				<p lock="1"><![CDATA[i:]]></p>
@@ -2835,7 +3845,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2844,7 +3854,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[mi]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -2863,7 +3873,7 @@
 			<note>
 				<t>240</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[li]]></y>
 				<p><![CDATA[l0 i:]]></p>
@@ -2882,7 +3892,7 @@
 			<note>
 				<t>420</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[li-]]></y>
 				<p><![CDATA[l0 i:]]></p>
@@ -2901,7 +3911,7 @@
 			<note>
 				<t>600</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ter]]></y>
 				<p><![CDATA[t @r]]></p>
@@ -2941,7 +3951,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -2950,7 +3960,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[mi]]></y>
 				<p><![CDATA[m i:]]></p>
@@ -2969,7 +3979,7 @@
 			<note>
 				<t>240</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[li]]></y>
 				<p><![CDATA[l0 i:]]></p>
@@ -2988,7 +3998,7 @@
 			<note>
 				<t>420</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[li-]]></y>
 				<p><![CDATA[l0 i:]]></p>
@@ -3007,7 +4017,7 @@
 			<note>
 				<t>600</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ters]]></y>
 				<p><![CDATA[t @r z]]></p>
@@ -3047,7 +4057,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -3056,7 +4066,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[flu-]]></y>
 				<p><![CDATA[f l u:]]></p>
@@ -3075,7 +4085,7 @@
 			<note>
 				<t>240</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[id]]></y>
 				<p><![CDATA[I d]]></p>
@@ -3094,7 +4104,7 @@
 			<note>
 				<t>480</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ounce]]></y>
 				<p><![CDATA[aU n s]]></p>
@@ -3134,7 +4144,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -3143,7 +4153,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[flu-]]></y>
 				<p><![CDATA[f l u:]]></p>
@@ -3162,7 +4172,7 @@
 			<note>
 				<t>240</t>
 				<dur>180</dur>
-				<n>63</n>
+				<n>60</n>
 				<v>64</v>
 				<y><![CDATA[id]]></y>
 				<p><![CDATA[I d]]></p>
@@ -3181,7 +4191,7 @@
 			<note>
 				<t>480</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[oun-]]></y>
 				<p><![CDATA[aU n]]></p>
@@ -3200,7 +4210,7 @@
 			<note>
 				<t>720</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ces]]></y>
 				<p><![CDATA[s I z]]></p>
@@ -3240,7 +4250,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -3249,7 +4259,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ho-]]></y>
 				<p><![CDATA[aU]]></p>
@@ -3268,7 +4278,7 @@
 			<note>
 				<t>240</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[ur]]></y>
 				<p><![CDATA[@r]]></p>
@@ -3308,7 +4318,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -3317,7 +4327,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[hou-]]></y>
 				<p><![CDATA[aU]]></p>
@@ -3336,7 +4346,7 @@
 			<note>
 				<t>240</t>
 				<dur>240</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[rs]]></y>
 				<p><![CDATA[@r z]]></p>
@@ -3376,7 +4386,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -3385,7 +4395,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[mi-]]></y>
 				<p><![CDATA[m I]]></p>
@@ -3404,7 +4414,7 @@
 			<note>
 				<t>240</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[nute]]></y>
 				<p><![CDATA[n I t]]></p>
@@ -3444,7 +4454,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -3453,7 +4463,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[mi-]]></y>
 				<p><![CDATA[m I]]></p>
@@ -3472,7 +4482,7 @@
 			<note>
 				<t>240</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[nutes]]></y>
 				<p><![CDATA[n I t s]]></p>
@@ -3512,7 +4522,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -3521,7 +4531,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[se-]]></y>
 				<p><![CDATA[s e]]></p>
@@ -3540,7 +4550,7 @@
 			<note>
 				<t>240</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[cond]]></y>
 				<p><![CDATA[k V n d]]></p>
@@ -3580,7 +4590,7 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>2</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
@@ -3589,7 +4599,7 @@
 			<note>
 				<t>60</t>
 				<dur>180</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[se-]]></y>
 				<p><![CDATA[s e]]></p>
@@ -3608,7 +4618,7 @@
 			<note>
 				<t>240</t>
 				<dur>300</dur>
-				<n>62</n>
+				<n>59</n>
 				<v>64</v>
 				<y><![CDATA[conds]]></y>
 				<p><![CDATA[k V n d z]]></p>
