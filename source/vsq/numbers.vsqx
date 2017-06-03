@@ -5,7 +5,7 @@
 	<vVoiceTable>
 		<vVoice>
 			<bs>1</bs>
-			<pc>1</pc>
+			<pc>0</pc>
 			<id><![CDATA[BKMMC6EZLHZHZKC2]]></id>
 			<name><![CDATA[LUKA_V4X_ENG_Soft]]></name>
 			<vPrm>
@@ -108,11 +108,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -176,11 +188,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -225,11 +249,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -274,11 +310,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -323,11 +371,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -372,11 +432,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -433,11 +505,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -482,11 +566,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -550,11 +646,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -599,11 +707,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -648,11 +768,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -697,11 +829,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -784,11 +928,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -833,11 +989,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -901,11 +1069,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -969,11 +1149,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1037,11 +1229,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1105,11 +1309,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1192,11 +1408,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1260,11 +1488,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1328,11 +1568,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1396,11 +1648,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1483,11 +1747,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1570,11 +1846,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1657,11 +1945,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1744,11 +2044,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1831,11 +2143,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -1918,11 +2242,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -2024,11 +2360,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -2111,11 +2459,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -2198,11 +2558,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -2266,11 +2638,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -2353,11 +2737,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -2440,11 +2836,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -2527,11 +2935,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -2614,11 +3034,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -2701,11 +3133,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -2788,11 +3232,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -2894,11 +3350,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -2981,11 +3449,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3068,11 +3548,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3136,11 +3628,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3223,11 +3727,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3310,11 +3826,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3397,11 +3925,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3484,11 +4024,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3571,11 +4123,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3658,11 +4222,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3764,11 +4340,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3851,11 +4439,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -3938,11 +4538,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4006,11 +4618,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4093,11 +4717,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4180,11 +4816,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4267,11 +4915,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4354,11 +5014,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4441,11 +5113,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4528,11 +5212,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4634,11 +5330,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4721,11 +5429,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4808,11 +5528,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4876,11 +5608,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -4963,11 +5707,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5050,11 +5806,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5137,11 +5905,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5224,11 +6004,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5311,11 +6103,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5398,11 +6202,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5504,11 +6320,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5591,11 +6419,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5678,11 +6518,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5765,11 +6617,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5871,11 +6735,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -5977,11 +6853,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6083,11 +6971,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6189,11 +7089,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6295,11 +7207,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6401,11 +7325,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6526,11 +7462,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6632,11 +7580,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6738,11 +7698,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6806,11 +7778,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6893,11 +7877,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -6980,11 +7976,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7067,11 +8075,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7154,11 +8174,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7241,11 +8273,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7328,11 +8372,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7434,11 +8490,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7521,11 +8589,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7608,11 +8688,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7676,11 +8768,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7763,11 +8867,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7850,11 +8966,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -7937,11 +9065,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8024,11 +9164,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8111,11 +9263,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8198,11 +9362,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8304,11 +9480,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8391,11 +9579,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8478,11 +9678,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8565,11 +9777,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8633,11 +9857,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8701,11 +9937,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8769,11 +10017,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8837,11 +10097,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8905,11 +10177,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -8973,11 +10257,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9060,11 +10356,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9128,11 +10436,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9196,11 +10516,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9283,11 +10615,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9370,11 +10714,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -9457,11 +10813,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -9544,11 +10912,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9631,11 +11011,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9718,11 +11110,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9824,11 +11228,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9911,11 +11327,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -9998,11 +11426,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -10085,11 +11525,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -10134,11 +11586,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -10202,11 +11666,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>60</t>
@@ -10251,11 +11727,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10319,11 +11807,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10387,11 +11887,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10474,11 +11986,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10561,11 +12085,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10629,11 +12165,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10697,11 +12245,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10765,11 +12325,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10833,11 +12405,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10901,11 +12485,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -10969,11 +12565,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11037,11 +12645,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11105,11 +12725,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11173,11 +12805,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11241,11 +12885,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11309,11 +12965,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11377,11 +13045,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11445,11 +13125,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11513,11 +13205,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>
@@ -11581,11 +13285,23 @@
 			<singer>
 				<t>0</t>
 				<bs>1</bs>
-				<pc>1</pc>
+				<pc>0</pc>
 			</singer>
 			<cc>
 				<t>0</t>
-				<v id="D">100</v>
+				<v id="D">90</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="R">60</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="C">12</v>
+			</cc>
+			<cc>
+				<t>0</t>
+				<v id="G">40</v>
 			</cc>
 			<note>
 				<t>120</t>

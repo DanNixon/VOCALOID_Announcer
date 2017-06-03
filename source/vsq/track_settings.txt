@@ -1,0 +1,6 @@
+Luka V4X English Soft
+Dynamics	90
+Brightness	60
+Breathiness	0
+Clearness	12
+Gender Factor	40
