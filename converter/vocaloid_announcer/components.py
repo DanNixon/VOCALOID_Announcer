@@ -129,4 +129,4 @@ class FadeOut(AbstractComponentWithDuration):
         return 'FadeOut(note_div:{0} measures:{1})'.format(self.note_div, self.measures)
 
 
-TYPES = [MissingVSQRegion, Pause, Crossfade, FadeIn, FadeOut]
+TYPES = [Pause, Crossfade, FadeIn, FadeOut, MissingVSQRegion]

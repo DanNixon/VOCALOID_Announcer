@@ -134,13 +134,13 @@ class TargetSound(object):
             for t in TYPES:
                 try:
                     comp = t(part)
-                    LOG.trace('Found type (%s) for part "%s"', t, part)
+                    LOG.debug('Found type (%s) for part "%s"', t, part)
                     break
                 except:
                     continue
 
             if comp is None:
-                raise RuntimeError('No type found for part "{0}"'.format(part))
+                raise RuntimeError('No type found for part "{}"'.format(part))
 
             self._components.append(comp)
 
@@ -151,9 +151,11 @@ class TargetSound(object):
                 if len(region) == 1:
                     self._components[i] = region[0]
                 else:
-                    LOG.warn('Unexpected number of results for "%s": $d', component.name, len(region))
+                    LOG.warn('Unexpected number of results for "%s": %d', component.name, len(region))
 
     def process(self, directory, audio_config, pause_note):
+        LOG.info('Processing: %s', str(self))
+	
         sound = AudioSegment.empty()
 
         offset = 0

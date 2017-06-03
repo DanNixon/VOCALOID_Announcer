@@ -184,10 +184,10 @@
     "midtrim.wav"     : "trim ^16:1 centre",
     "maxtrim.wav"     : "trim ^16:1 maximum",
     "mintrim.wav"     : "trim ^16:1 minimum",
-    "timovr1.wav"     : "timer 1 elapsed",
-    "timovr2.wav"     : "timer 2 elapsed",
-    "timovr3.wav"     : "timer 3 elapsed",
-    "lowbatt.wav"     : "radio battery low_b",
+    "timovr1.wav"     : "timer ^16:1 1 ^32:1 elapsed",
+    "timovr2.wav"     : "timer ^16:1 2 ^32:1 elapsed",
+    "timovr3.wav"     : "timer ^16:1 3 ^32:1 elapsed",
+    "lowbatt.wav"     : "radio ^32:1 battery ^32:1 low_b",
     "inactiv.wav"     : "inactivity",
     "thralert.wav"    : "throttle ^16:1 warning",
     "swalert.wav"     : "switch ^16:1 warning",
@@ -198,10 +198,10 @@
     "swr_red.wav"     : "radio_antenna_defective",
     "telemko.wav"     : "telemetry ^32:1 lost_a",
     "telemok.wav"     : "telemetry ^32:1 recovered",
-    "trainko.wav"     : "trainer lost_a",
-    "trainok.wav"     : "trainer recovered",
-    "sensorko.wav"    : "sensor lost_a",
-    "servoko.wav"     : "servo overload",
-    "rxko.wav"        : "rx overload"
+    "trainko.wav"     : "trainer ^32:1 lost_a",
+    "trainok.wav"     : "trainer ^32:1 recovered",
+    "sensorko.wav"    : "sensor ^32:1 lost_a",
+    "servoko.wav"     : "servo ^32:1 overload",
+    "rxko.wav"        : "rx ^32:1 overload"
   }
 }

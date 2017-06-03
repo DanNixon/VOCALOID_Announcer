@@ -21,3 +21,7 @@ track.
 - Ideally there should be either a quarter note or eighth note spacing between
   the start of a region and the first note and between the end of one region and
   the start of the next
+
+## Tips
+
+- If running within a VM and sound quality is poor, suspect the VM first
