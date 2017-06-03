@@ -125,8 +125,8 @@
     "volt1.wav"       : "volts",
     "amp0.wav"        : "amp",
     "amp1.wav"        : "amps",
-    "mamp0.wav"       : "milliamp",
-    "mamp1.wav"       : "milliamps",
+    "mamp0.wav"       : "milli amp",
+    "mamp1.wav"       : "milli amps",
     "knot0.wav"       : "knot",
     "knot1.wav"       : "knots",
     "mps0.wav"        : "metre_per_second",
@@ -198,9 +198,9 @@
     "swr_red.wav"     : "radio_antenna_defective",
     "telemko.wav"     : "telemetry ^32:1 lost_a",
     "telemok.wav"     : "telemetry ^32:1 recovered",
-    "trainko.wav"     : "trainer lost",
+    "trainko.wav"     : "trainer lost_a",
     "trainok.wav"     : "trainer recovered",
-    "sensorko.wav"    : "sensor lost",
+    "sensorko.wav"    : "sensor lost_a",
     "servoko.wav"     : "servo overload",
     "rxko.wav"        : "rx overload"
   }
