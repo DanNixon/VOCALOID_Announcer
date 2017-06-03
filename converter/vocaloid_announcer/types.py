@@ -2,7 +2,7 @@ import logging
 import os
 import re
 import json
-from vocaloid_announcer.components import MissingVSQRegion
+from vocaloid_announcer.components import AbstractVSQRegion, MissingVSQRegion
 from pydub import AudioSegment
 
 LOG = logging.getLogger(__name__)

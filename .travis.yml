@@ -15,10 +15,12 @@ script:
     -s source/sources.json
     -t targets/multirotor.json
     -t targets/opentx21_system.json
+    -t targets/opentx22_system.json
     list_missing_regions
   - vocaloid_announcer_conv
     -t targets/multirotor.json
     -t targets/opentx21_system.json
+    -t targets/opentx22_system.json
     validate_filenames
 
 notifications:
